@@ -1,0 +1,516 @@
+********************************************************
+DATE: 06/14/2002   TIME: 12:55:43 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 1:00:24 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 1:00:30 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: Not provided!
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 3:30:34 PM
+E R R O R ! ! !
+No.: 5
+Description: Invalid procedure call or argument
+Form: frmMain
+Procedure: cmdProcess_Click
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:00:35 AM
+E R R O R ! ! !
+No.: 381
+Description: Subscript out of range
+Form: frmMain
+Procedure: Form Load
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:00:46 AM
+E R R O R ! ! !
+No.: 381
+Description: Subscript out of range
+Form: frmMain
+Procedure: Form Load
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:01:00 AM
+E R R O R ! ! !
+No.: 381
+Description: Subscript out of range
+Form: frmMain
+Procedure: Form Load
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:05:40 AM
+E R R O R ! ! !
+No.: 78
+Description: Application-defined or object-defined error
+Form: frmMain
+Procedure: Form Load
+Location in Code: FL100
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:05:47 AM
+E R R O R ! ! !
+No.: 78
+Description: Application-defined or object-defined error
+Form: frmMain
+Procedure: Form Load
+Location in Code: FL100
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:11:30 AM
+E R R O R ! ! !
+No.: 5
+Description: Invalid procedure call or argument
+Form: frmMain
+Procedure: cmdProcess_Click
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 2:56:46 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 2:57:11 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 2:59:24 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: s_lf_100
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 3:00:29 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 3:02:39 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: s_lf_90
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 3:03:33 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Subs
+Procedure: Initialize
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 3:03:41 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Subs
+Procedure: Initialize
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 10:18:35 PM
+E R R O R ! ! !
+No.: 6
+Description: Overflow
+Form: Subs
+Procedure: GetABSString
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 10:18:37 PM
+E R R O R ! ! !
+No.: 6
+Description: Overflow
+Form: Subs
+Procedure: GetABSString
+Location in Code: Not provided!
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 10:18:37 PM
+E R R O R ! ! !
+No.: 6
+Description: Overflow
+Form: Subs
+Procedure: GetABSString
+Location in Code: Not provided!
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 10:19:53 PM
+E R R O R ! ! !
+No.: 6
+Description: Overflow
+Form: Subs
+Procedure: GetABSString
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 10:20:22 PM
+E R R O R ! ! !
+No.: 6
+Description: Overflow
+Form: Subs
+Procedure: GetABSString
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 10:43:18 PM
+E R R O R ! ! !
+No.: 6
+Description: Overflow
+Form: Subs
+Procedure: GetABSString
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 10:43:39 PM
+E R R O R ! ! !
+No.: 6
+Description: Overflow
+Form: Subs
+Procedure: GetABSString
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/27/2002   TIME: 12:12:15 AM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 6/27/2002   TIME: 12:14:12 AM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 6/27/2002   TIME: 12:14:41 AM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: Browser: IEXPLORE.EXE ,  Help File: HELPFILE/START.HTM
+*********************************************************
+********************************************************
+DATE: 6/27/2002   TIME: 12:15:55 AM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: Browser: IEXPLORE.EXE ,  Help File: C:\_geek\ai_program\aip_v01c\HELPFILE\START.HTM
+*********************************************************
+********************************************************
+DATE: 6/27/2002   TIME: 12:16:44 AM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: Browser: iexplore.exe ,  Help File: C:\_geek\ai_program\aip_v01c\helpfile\start.htm
+*********************************************************
+********************************************************
+DATE: 6/27/2002   TIME: 12:17:01 AM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: Browser: iexplore.exe ,  Help File: C:\_geek\ai_program\aip_v01c\helpfile\start.htm
+*********************************************************
+********************************************************
+DATE: 6/27/2002   TIME: 12:17:58 AM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: Browser: iexplore.exe ",  Help File: C:\_geek\ai_program\aip_v01c\helpfile\start.htm"
+*********************************************************
+********************************************************
+DATE: 6/27/2002   TIME: 12:18:21 AM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: Browser: iexplore.exe ,  Help File: "C:\_geek\ai_program\aip_v01c\helpfile\start.htm"
+*********************************************************
+********************************************************
+DATE: 6/30/2002   TIME: 10:03:22 PM
+E R R O R ! ! !
+No.: 76
+Description: Path not found
+Form: frmMain
+Procedure: cmdShowFile
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 6/30/2002   TIME: 10:06:35 PM
+E R R O R ! ! !
+No.: 75
+Description: Path/File access error
+Form: Module FileSubs
+Procedure: ReadFile
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 6/30/2002   TIME: 10:10:15 PM
+E R R O R ! ! !
+No.: 75
+Description: Path/File access error
+Form: Module FileSubs
+Procedure: ReadFile
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:26:20 PM
+E R R O R ! ! !
+No.: 75
+Description: Path/File access error
+Form: Module FileSubs
+Procedure: ReadFile
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:30:25 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:30:50 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:36:21 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:37:17 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:37:30 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:38:04 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:39:24 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:40:25 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:41:51 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 20
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:42:21 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 20
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:42:47 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 20
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:43:20 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 20
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:43:38 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 20
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 1:44:03 PM
+E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuFileOpen
+Location in Code: 20
+Info: Not provided!
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 9:56:40 PM
+E R R O R ! ! !
+No.: 381
+Description: Subscript out of range
+Form: frmMain
+Procedure: DrawNewGrid
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 9:56:47 PM
+E R R O R ! ! !
+No.: 381
+Description: Subscript out of range
+Form: frmMain
+Procedure: DrawNewGrid
+Location in Code: Not provided!
+Info: Not provided!
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 10:22:15 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: frmMain
+Procedure: cmdShowVariables_Click
+Location in Code: 
+Info: 
+*********************************************************
+********************************************************
+DATE: 7/4/2002   TIME: 10:22:37 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: frmMain
+Procedure: cmdShowVariables_Click
+Location in Code: Not provided!
+Info: Not provided!
+*********************************************************

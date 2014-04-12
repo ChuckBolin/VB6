@@ -1,0 +1,297 @@
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 1 of 9
+THE GAME
+Table of Contents
+4 THE GAME..................................................................................................................................... 2
+4.1 GAME OVERVIEW .................................................................................................................. 2
+4.2 THE GAME............................................................................................................................... 2
+4.2.1 Definitions........................................................................................................................... 2
+4.2.2 Match Format....................................................................................................................... 3
+4.3 RULES....................................................................................................................................... 4
+4.3.1 Safety .................................................................................................................................. 4
+4.3.2 Game Periods....................................................................................................................... 4
+4.3.3 Scoring ................................................................................................................................ 5
+4.3.4 Robot Operations ................................................................................................................. 5
+4.3.5 Team Member Actions ........................................................................................................ 8
+4.3.6 Referee Interactions ............................................................................................................. 9
+Section 4
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 2 of 9
+4 THE GAME
+4.1 GAME OVERVIEW
+AIM HIGH is a game played on a field as illustrated in the figure below. Two alliances, one red and one blue,
+composed of three teams each, compete in each match. The object of the game is to attain a higher score than
+your opponent alliance by scoring balls in the center or corner goals, and/or by having ROBOTs on your
+platform or ramp at the end of the match. The point values for each of those actions are explained below.
+Note: The illustrations in this section of the manual are for a general visual understanding of the
+field and game only. Teams should refer to the drawings for exact dimensions and field construction.
+4.2 THE GAME
+4.2.1 Definitions
+ALLIANCE: A set of three FIRST Robotics Competition teams that work together during a match to play
+AIM HIGH against an opposing ALLIANCE. ALLIANCEs are identified during the match by alliance color,
+either red or blue.
+ALLIANCE PLATFORM: The raised platform at each end of the field directly beneath the center goal. The
+ALLIANCE PLATFORM includes the horizontal platform, the ramp between the floor and the platform, and
+the vertical side walls on each side of the platform and ramp.
+ALLIANCE ZONE: The 26’ x 8’ area behind the Alliance Station Wall at either end of the field, where the
+alliance team members stand during the match. The ALLIANCE ZONE includes the area behind the
+STARTING LINE.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 3 of 9
+BACKBOT: The robot that an ALLIANCE keeps on their offensive side of the field while their ALLIANCE
+is on defense. The BACKBOT can be any of the three ALLIANCE ROBOTs, and can change during the
+match.
+COACH: A student or adult mentor designated as the team advisor during the match and identified as the
+person wearing a “COACH” pin or button.
+DRIVER: A pre-college student team member responsible for operating and controlling the ROBOT.
+HUMAN PLAYER: A pre-college student team member designated as the only team member permitted to
+enter balls onto the field.
+GAME PERIODS:
+• AUTONOMOUS PERIOD: The 10 second period at the beginning of the match in which
+the ROBOTS operate and react only to sensor inputs and to commands programmed by the
+team into the onboard robot control system.
+• SECOND PERIOD: The first 40-second period after AUTONOMOUS PERIOD, following
+AUTONOMOUS PERIOD after a time delay.
+• THIRD PERIOD: The second 40-second period after AUTONOMOUS PERIOD,
+immediately following the SECOND PERIOD.
+• FINAL PERIOD: The third 40-second period after AUTONOMOUS PERIOD, immediately
+following the THIRD PERIOD.
+ON-SIDES: The half of the field farthest from the ALLIANCE’s driver’s stations. This is the offensive half
+of the field for the ALLIANCE on defense. The center line is part of the ON SIDES half of the field.
+ROBOT: Anything that has passed ROBOT inspection that a team places on the field prior to the start of a
+match.
+ROBOT STARTING ZONE: Three 5 by 5 foot areas on each side of the field marked by Blue or Red 2”-wide
+tape corresponding to the alliance colors.
+STARTING LINE: A line 4 feet behind the Alliance Station Wall, indicated by a line of 2” white gaffer’s
+tape on the floor.
+4.2.2 Match Format
+A match is 2 minutes and 10 seconds long. An AUTONOMOUS PERIOD starts the match, which lasts 10
+seconds. Following AUTONOMOUS PERIOD, there are 2 minutes of tele-operated game play, which are
+broken up into three 40-second periods. There may be a short pause between AUTONOMOUS PERIOD and
+the start of the tele-operated periods as the players stations are activated. The SECOND PERIOD and THIRD
+PERIOD are offense/defense, where only one ALLIANCE can score. During the FINAL PERIOD, both
+ALLIANCEs can score.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 4 of 9
+4.3 RULES
+4.3.1 Safety
+<S01> If at any time a ROBOT’s operation or design is deemed unsafe by the head referee, it will receive a 10-
+point penalty and be disabled for the remainder of the match. If the safety violation is due to the ROBOT
+design, the head referee has the option to not allow the ROBOT back onto the field unless the design has
+been corrected. An example of unsafe operation is repeatedly throwing balls off the field at audience
+members, media personnel, judges, referees, etc. An example of an unsafe design is a shooter mechanism
+that has a large mass that is stopped abruptly at the end of travel and is at risk of breaking off the ROBOT
+and becoming a projectile.
+<S02> Muzzle Velocity - No ROBOT may throw a ball with an exit velocity of greater than 12 m/s (26.8 mph).
+As a reference, a ball traveling at this velocity when leaving the ROBOT at an angle of 30º from
+horizontal with no spin will travel approximately 35 feet. A robot that violates this rule will be
+considered unsafe per <S01>.
+<S03> Shooter Mechanism must remain inside the ROBOT - Any mechanism used to throw balls must be
+contained within the original 28” x 38” x 60”starting envelope of the ROBOT and must be shielded such
+that the mechanism cannot make contact with other ROBOTs. A ROBOT that violates this rule will be
+considered unsafe per <S01>.
+<S04> HP/DRIVER/COACH cannot touch a ROBOT - HUMAN PLAYERs, DRIVERs, and COACHes may
+not directly contact the ROBOT at any time during the match. Violating this rule will result in the
+disabling of the team’s ROBOT for the remainder of the match.
+<S05> E-Stop - Three Emergency Stop (E-Stop) buttons are located in each alliance station, one for each team.
+Pressing an E-Stop button will cause the corresponding team’s ROBOT to be disabled for the remainder
+of the match. The E-Stop buttons are intended for remote shut down during a match in the event of safety
+hazards and will not otherwise affect match score or duration. Any team member, including COACHes,
+may press the E-Stop button.
+4.3.2 Game Periods
+<G01> AUTONOMOUS PERIOD - During AUTONOMOUS PERIOD both ALLIANCEs may play offense or
+defense, and all goals are active for scoring. During AUTONOMOUS PERIOD the ROBOTs react only
+to sensor inputs and commands programmed into the onboard control system. Human control of the
+ROBOT is not permitted at this time. All ROBOT safety rules are still applicable during
+AUTONOMOUS PERIOD.
+<G02> SECOND PERIOD - The ALLIANCE with the highest score at the end of AUTONOMOUS PERIOD
+will play on defense during the SECOND PERIOD. In the event of a tie at the end of AUTONOMOUS
+PERIOD, the ALLIANCE playing on defense during SECOND PERIOD will be chosen at random. Any
+balls scored in the defensive ALLIANCE’s goals (opposite their DRIVER’s station) during this period
+will not be counted.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 5 of 9
+<G03> THIRD PERIOD - The ALLIANCE that was on offense for the SECOND PERIOD will play on defense
+during the THIRD PERIOD. Any balls scored in the defensive ALLIANCE’s goals during this time will
+not be counted.
+<G04> FINAL PERIOD - Both ALLIANCEs may play offense or defense during the FINAL PERIOD. Balls
+scored in all goals will be counted.
+4.3.3 Scoring
+<G05> In order for a ball to score, it must enter the goal and exit via the exit chute. A ball that bounces out of the
+goal is not scored. Once a ball is scored for a particular ALLIANCE, it cannot score again until it is
+entered onto the field by the opposing ALLIANCE’s HUMAN PLAYER.
+Point Values:
+<G06> Center Goal - A ball scored in the center goal is worth 3 points for the ALLIANCE whose DRIVER’s
+station is opposite the goal, when that ALLIANCE is designated as playing offense.
+<G07> Corner Goal - A ball scored in the either of the corner goals is worth 1 point for the ALLIANCE whose
+DRIVER’s station is opposite the goal, when that ALLIANCE is designated as playing offense.
+<G08> AUTONOMOUS PERIOD Bonus - The ALLIANCE that has the highest point total at the end of
+AUTONOMOUS PERIOD will receive a 10 point bonus.
+<G09> ROBOTs on ALLIANCE PLATFORMs - ROBOTs score points if they are entirely on an ALLIANCE
+PLATFORM at the end of the match. ALLIANCEs receive points for ROBOTs belonging to either
+ALLIANCE that are on the ALLIANCE PLATFORM closest to the ALLIANCE’s DRIVER station. If
+any part of the ROBOT is touching the carpet, the ROBOT is not considered on the platform. If a
+ROBOT is entirely on an ALLIANCE PLATFORM and is touching another ROBOT that is not entirely
+on the ALLIANCE PLATFORM, it still is considered on the platform. One ROBOT on a platform or
+ramp is worth 5 points, two ROBOTs are worth 10 points, 3 or more ROBOTs are worth 25 points.
+4.3.4 Robot Operations
+4.3.4.1 Starting Conditions
+<G10> Starting Positions - At the beginning of a match, the three alliance ROBOTs must be placed inside one of
+the three 5’ x 5’ robot starting zones located at mid-field to the right of the DRIVER’s station and not
+touching the tape boundaries. It is the responsibility of the head referee to verify that this rule is satisfied
+prior to the start of the match. The match will not be started until all robots are in the starting position.
+<G11> Alignment Devices - Alignment devices (templates, tape measures, lasers, etc.) that are not part of the
+ROBOT may not be used to assist with positioning the ROBOT. Teams that use external alignment
+devices to position their ROBOT will have their ROBOT arbitrarily repositioned by the head referee.
+<G12> Starting Size - At the beginning of a match, each ROBOT must not exceed a volume of 28 inches by 38
+inches by 60 inches tall, excluding its bumpers. It is the responsibility of the head referee to verify that
+this rule is satisfied prior to the start of the match. An offending ROBOT will be removed before the start
+of the match at the head referee’s discretion.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 6 of 9
+<G13> Balls Contained in ROBOTs at the Start of a match - Each ALLIANCE will start a match with 40 balls.
+Each ROBOT may contain up to 10 balls at the start of a match. Any balls not contained within the robot
+will be evenly distributed between the alliance ball corrals. All of the balls must be contained within the
+ROBOT’s 28” x 38” x 60” starting volume and must be clearly visible from outside the ROBOT. The
+Head Referee will require that balls outside of the starting volume be removed. It is the responsibility of
+the head referee to verify that this rule is satisfied prior to the start of the match.
+4.3.4.2 Robot Out Of Bounds
+<G14> ROBOT Out of Bounds - Any ROBOT that touches the floor (the surface co-planar with the playing
+surface) outside of the field boundary will be disabled for the remainder of the match. No penalty points
+will be assessed.
+<G15> Grace Period After Autonomous - If a ROBOT should touch the floor outside of the field boundary during
+the AUTONOMOUS PERIOD, it will have a 10 second “grace period” to right itself and return to the
+playing field at the beginning of the tele-operated period. If it is able to do so within the 10-second grace
+period, it will not be disabled. If at any time the referee should determine that the attempts to recover
+from the situation constitute unsafe operations, Rule <S01> will take precedence.
+4.3.4.3 Robot Dimensions
+<G16> Maximum Height - A ROBOT may not extend above 60” above the floor or the ALLIANCE
+PLATFORM in a stable configuration at any time during a match. Each violation shall result in a penalty
+of 5 points per occurrence or 5 points per ball shot or ball blocked during the occurrence, whichever is
+greater. ROBOTs designed to violate this rule are not allowed. For example, a ROBOT that extends a
+blocking device in front of the center goal will be disqualified. Transient conditions that may cause a
+diagonal dimension of the robot to momentarily exceed the 60” height restriction – such as during a tipover
+or when climbing onto the ALLIANCE PLATFORM – are not subject to this rule. The one
+exception to the height restriction is provided in rule <R13> (flag rule).
+<G17> ROBOT Orientation - ROBOTs must maintain their vertical orientation with respect to their starting
+position throughout the match. ROBOTs may not intentionally tip over onto one of their initially vertical
+sides and operate with this side parallel to the ground. If a ROBOT is accidentally or intentionally tipped
+over onto its side, it cannot score any balls in any goals from this orientation.
+<G18> ROBOT Extension Size – ROBOTs may not extend beyond a 60-inch limit in either horizontal cardinal
+dimension as specified in <R08>. Robots that violate this rule will be disqualified.
+4.3.4.4 Robot Interaction
+<G19> Field Interaction - ROBOTs may push or react against any elements of the field, provided there is no
+damage or disruption of the field elements. ROBOTs may not grab, grasp, grapple, or attach to any field
+structure. If a ROBOT violates this rule, the head referee will give one warning. If the referee determines
+that team is disregarding the warning, the team’s ROBOT will be disabled for the remainder of the match.
+<G20> Field Damage - The head referee may disable a ROBOT that has damaged the playing field, carpet, goals,
+etc. if the head referee feels that further damage is likely to occur. The head referee may require
+corrective action, such as eliminating a sharp edge, before the ROBOT will be allowed to compete in
+subsequent matches.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 7 of 9
+<G21> ROBOT Incursion into the Corner Goal - Incidental incursion into the corner goal that occurs as a result
+of a ROBOT pushing balls into the goal is permitted, not to exceed a distance of approximately 3 inches.
+Intentional incursion, for example to use a ball gathering mechanism to drop off balls inside the goal, or
+extending a portion of the ROBOT through the goal opening to activate the ball counting system, will
+result in disqualification of the offending ROBOT.
+<G22> Intentional ROBOT - ROBOT Interaction - Strategies aimed solely at the destruction, damage, tipping
+over, or entanglement of ROBOTs are not in the spirit of the FIRST Robotics Competition and are not
+allowed. However, AIM HIGH is a highly interactive game, and some appropriate contact is allowed
+subject to the following guidelines:
+• Rule <R35> in Section 5.3.4 establishes ROBOT bumper zones. Any contact within this zone is
+generally acceptable, with the exception of high speed long distance ramming. If two ROBOTs
+choose not to use bumpers, and they contact such that simultaneous contact occurs both in and out of
+the bumper zone, then this contact is considered within the bumper zone.
+• Contact outside of the bumper zone is generally not acceptable, and the offending ROBOT will be
+assessed a 5-point penalty, and may be disqualified from the match if the offense is particularly
+egregious or if it results in substantial damage to another ROBOT. Incidental contact will not be
+penalized. Contact outside the bumper zone that is a result of tipping caused by contact within the
+bumper zone will be considered incidental contact.
+• If a ROBOT extends outside of its 28 inch by 38 inch starting footprint, it is responsible for the
+extension’s contact with other ROBOTs and must not use the extension to contact other ROBOTs
+outside of the bumper zone. Likewise, other ROBOTs will not be responsible for contact with the
+extension outside of the bumper zone. Again, incidental contact will not be penalized.
+<G23> Accidental Entanglement - If, due to its own loose cables, hoses, cordage, etc., a ROBOT unintentionally
+but routinely entangles another ROBOT as a result of normal game interaction, the head referee may at
+his or her discretion disqualify the offending ROBOT and require that the entangling device be repaired
+prior to the ROBOT’s next match.
+<G24> Pinning - While on the carpeted field surface, a ROBOT cannot pin (inhibit the movement of another
+ROBOT while in contact with a field element or border) for more than 10 seconds. This rule does not
+apply if either ROBOT is entirely on an ALLIANCE PLATFORM. If a ROBOT has been pinned for 10
+seconds, the team with the pinning ROBOT will be told by a referee to release the pinned ROBOT and
+back away approximately 3 feet. Once the pinning ROBOT has backed off by 3 feet, it may again
+attempt to pin its opponent, and if successful, the 10 second count will start over. If a referee determines
+that this rule has been violated, a 5-point penalty flag will be assessed for each violation.
+4.3.4.5 Match Play
+<G25> Balls Out of Play - Balls that leave the playing field over the side field boundaries will be placed on the
+field just inside the field boundary approximately where it left the field, provided it is safe to do so. Balls
+that leave the field over the player station will be given to a HUMAN PLAYER closest to where the ball
+left the field. Every attempt will be made to return balls to the field. However, if there are no balls
+available to replace balls thrown out of the immediate area, then the match will continue with the balls
+that remain on the field.
+<G26> ROBOT Off Sides - During the SECOND and THIRD PERIODs, the ALLIANCE on defense must keep
+at least one ROBOT (their BACKBOT) on the half of the field farthest from their DRIVER’s station.
+There will be a 5 second grace period at the start of the SECOND and THIRD PERIOD to allow an
+ALLIANCE to get their BACKBOT “ON SIDES”, however, the BACKBOT must be moving toward the
+mid-field line at the start of the period. The mid-field line is included in the defensive half of the field.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 8 of 9
+Multiple ALLIANCE robots are permitted in the farthest half of the field. ROBOTs of the same
+ALLIANCE may dynamically change the designation of the BACKBOT during the defensive period as
+long as there is at least one BACKBOT during the entire period. Violations of this rule will result in a 5-
+point penalty against the offending ALLIANCE for the initial violation. An additional 5-point penalty
+will be assessed for every 5 seconds beyond the grace period that a BACKBOT is not “ON SIDES”. A
+BACKBOT that is prevented by an offensive ROBOT from crossing the field centerline will not be
+penalized.
+<G27> ROBOTs Must Throw the Balls into the Center Goal - Only a ROBOT may throw a ball into the center
+goal. The kinetic energy of the ball must be supplied by the ROBOT. A HUMAN PLAYER may not
+bounce a ball off a ROBOT and score it in the center goal. A violation of this rule will result in a 5-point
+penalty.
+<G28> ROBOTs Can Pick Up Balls - ROBOTs are permitted to pick up balls from the field.
+<G29> Detaching Mechanisms - ROBOTs may not intentionally detach parts or leave multiple mechanisms on
+the field. Violations will result in a 5-point penalty. If an intentionally detached component or
+mechanism impedes access to a ramp or a goal, the offending ROBOT will be disqualified from the
+match.
+<G30> Field Reset, ROBOT Ball Release - ROBOTs must be designed to permit the release and removal of any
+balls from the ROBOT without being powered up after a match. If a ROBOT violates this rule, the head
+referee will warn the offending team and request that they modify the ROBOT. If the modification is not
+made, the head referee may not allow the ROBOT to compete in future matches.
+4.3.5 Team Member Actions
+<G31> Number of people in the ALLIANCE ZONE - Each team shall include a maximum of one HUMAN
+PLAYER, two DRIVERs, and one COACH. A team with additional personnel in the ALLIANCE ZONE
+will be assessed a 5-point penalty, and the additional person will be asked to immediately leave the
+ALLIANCE ZONE.
+<G32> Travel Within the ALLIANCE ZONE - All team members may travel anywhere within the ALLIANCE
+ZONE.
+<G33> HUMAN PLAYER Shooting Zone - The HUMAN PLAYER must remain behind the STARTING LINE
+and within the ALLIANCE ZONE when they are entering a ball onto the field. Each violation will result
+in a 5-point penalty.
+<G34> HUMAN PLAYER/COACH/DRIVER Out of ZONE - All team members must stay within their
+ALLIANCE ZONE during the match. Each violation will result in a 5-point penalty.
+<G35> HP/COACH/DRIVER Over The STARTING LINE During AUTONOMOUS PERIOD - No team
+member may pass the STARTING LINE in the ALLIANCE ZONE until the conclusion of the
+AUTONOMOUS PERIOD (when the field timer displays zero seconds). Each violation will result in a 5-
+point penalty. Exceptions will be made in cases involving personal safety or the safety of the ROBOT
+controls.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 4 – The Game, Rev A Page 9 of 9
+<G36> HUMAN PLAYER Entering Balls on the Field During AUTONOMOUS PERIOD - A HUMAN
+PLAYER may not enter a ball onto the field during AUTONOMOUS PERIOD. A violation of this rule
+will result in a 5-point penalty.
+<G37> Team Member Ball Handling - Any HUMAN PLAYER, DRIVER, or COACH may handle balls that are
+in the ALLIANCE ZONE during a match.
+<G38> Entering balls onto the field - Only the HUMAN PLAYERs may enter a ball onto the field, either by
+attempting to throw it to a ROBOT, attempting to throw it in a corner goal, or throwing it onto the field
+for pickup by a ROBOT. Balls must be thrown over the top of the Alliance Station Wall, and may not be
+thrown around the side of the Alliance Station Wall. Violations of this rule will result in a 5-point penalty
+per ball entered onto the field.
+<G39> Scoring interference - HUMAN PLAYERs, DRIVERs, or COACHes may not reach into a ball chute or in
+any way interfere with the ball counting system. Violations of this rule will result in disqualification.
+<G40> COACHes Operating ROBOTs - During a match, the ROBOTs may be remotely operated solely by the
+DRIVERs and/or by software running in the on-board control system. Any violation of this rule, such as
+a COACH touching the controls, will result in the ROBOT being disabled and disqualified from the
+match.
+<G41> Respect and Professional Demeanor - FIRST Competitions promote respect and professional demeanor.
+In the event that team members who are on the playing field (DRIVERS, COACHES, or HUMAN
+PLAYERS) are uncivil towards competition field personnel (including referees, tech advisors, FIRST
+field volunteers, etc.) or other teams, the team may be disqualified from the match. This rule only
+applies to team field personnel while on the playing field. Teams may not receive penalties for actions
+off the field, however they will be held accountable.
+4.3.6 Referee Interactions
+<G42> Any discussions regarding rules, scores, or penalties must be between the DRIVERs or HUMAN
+PLAYERs (pre-college team members) and the head referee.
+<G43> The Head Referee may at his or her discretion receive input from other sources, particularly Game Design
+Committee members that may be present at an event. However, the Head Referee’s decision is final
+(reference Rule <T01>).

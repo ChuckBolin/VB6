@@ -1,0 +1,13 @@
+'*************************************************************
+'Created September 2004
+'This file contains words related to hardware and software.
+'The wildcard character '*' can be used to indicate any
+'character. Viagra could be written as v**gr*.
+'*************************************************************
+cheapsoft
+software
+hardware
+dvd*vhs
+vhs*dvd
+
+

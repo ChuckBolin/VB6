@@ -1,0 +1,27 @@
+'**********************************
+'game10.aip
+'Date:7/6/2002
+'**********************************
+
+'system variables
+GAME.NAME=ttt
+GAME.TYPE=1
+GAME.ROWS=3
+GAME.COLS=3
+GAME.TEACHER.SYMBOL=O
+GAME.TEACHER.VALUE=2
+GAME.PROGRAM.SYMBOL=X
+GAME.PROGRAM.VALUE=1
+GAME.GOFIRST=1
+GAME.CELL.COLOR=16777215
+GAME.CELL.SELECTEDCOLOR=65280
+
+'win-loss history
+GAME.PROGRAM.WIN=0
+GAME.PROGRAM.LOSS=2
+GAME.PROGRAM.TIE=1
+
+'winning patterns
+AB=1
+ABS(1,2);(2,2);(3,2)=1
+ABS(1,1);(2,2);(3,3)=1

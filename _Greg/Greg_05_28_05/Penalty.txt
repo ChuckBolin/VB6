@@ -1,0 +1,3 @@
+"Too many offensive players on field",InPlay=True and OffPlays > 11, yds = -5 repeat=true, nothing,delay=true
+"Offense off sides", Hike = true and OffPlayeOnOffensiveSide<11,yds = -5 repeat=true,nothing,delay=false
+

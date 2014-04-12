@@ -1,0 +1,40 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="AIP.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"AIP.exe"
+"MSVBVM60.DLL"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"MSFLXGRD.OCX"
+"comdlg32.ocx"
+"MSCOMCTL.OCX"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
+"AIP_V02a.zip"
+"help.htm"
+"theory.htm"
+"gui.jpg"
+"logo2.jpg"
+"pattern.jpg"
+"pattern2.jpg"
+"tab_AI.jpg"
+"tab_game.jpg"
+"tab_var.jpg"
+"game1.aip"
+"controls.txt"
+"errorlog.txt"

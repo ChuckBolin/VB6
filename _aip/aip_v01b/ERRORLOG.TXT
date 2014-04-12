@@ -1,0 +1,153 @@
+********************************************************
+DATE: 06/14/2002   TIME: 12:55:43 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 1:00:24 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 1:00:30 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: Not provided!
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 3:30:34 PM
+E R R O R ! ! !
+No.: 5
+Description: Invalid procedure call or argument
+Form: frmMain
+Procedure: cmdProcess_Click
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:00:35 AM
+E R R O R ! ! !
+No.: 381
+Description: Subscript out of range
+Form: frmMain
+Procedure: Form Load
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:00:46 AM
+E R R O R ! ! !
+No.: 381
+Description: Subscript out of range
+Form: frmMain
+Procedure: Form Load
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:01:00 AM
+E R R O R ! ! !
+No.: 381
+Description: Subscript out of range
+Form: frmMain
+Procedure: Form Load
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:05:40 AM
+E R R O R ! ! !
+No.: 78
+Description: Application-defined or object-defined error
+Form: frmMain
+Procedure: Form Load
+Location in Code: FL100
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:05:47 AM
+E R R O R ! ! !
+No.: 78
+Description: Application-defined or object-defined error
+Form: frmMain
+Procedure: Form Load
+Location in Code: FL100
+*********************************************************
+********************************************************
+DATE: 6/15/2002   TIME: 12:11:30 AM
+E R R O R ! ! !
+No.: 5
+Description: Invalid procedure call or argument
+Form: frmMain
+Procedure: cmdProcess_Click
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 2:56:46 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 2:57:11 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 2:59:24 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: s_lf_100
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 3:00:29 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 3:02:39 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Module Subs
+Procedure: LoadFile
+Location in Code: s_lf_90
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 3:03:33 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Subs
+Procedure: Initialize
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 6/23/2002   TIME: 3:03:41 PM
+E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: Subs
+Procedure: Initialize
+Location in Code: 
+*********************************************************

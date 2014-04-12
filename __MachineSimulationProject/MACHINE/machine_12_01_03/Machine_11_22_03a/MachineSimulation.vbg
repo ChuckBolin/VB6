@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=machine.vbp
+Project=Cylinder\Cylinder.vbp
+Project=Tray\Project2.vbp

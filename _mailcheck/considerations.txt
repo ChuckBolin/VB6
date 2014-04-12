@@ -1,0 +1,118 @@
+1.  ID friendly URL domains in "From".  I.e. @reply.bellsouth.com>
+
+2.  ID friendly email address in "From". I.e. <Charles.Bolin@us.bosch.com>
+
+3.  ID emails with attachments. Look at message. I.e.
+	Content-Disposition: attachment;
+	filename="Christmas Letter 2003.doc"
+
+	Content-Disposition: attachment; filename="pic.gif"
+	Content-ID: <pic.gif>
+
+
+4.  ID emails with long texts after <html> in message body.
+
+5.  Search message body for long strings without spaces. May be an image. I.e. 
+	PGh0bWw+DQo8aGVhZD48L2hlYWQ+DQo8Ym9keT4NClNvbWV0aW1lcyBwZW9wbGUgY2FsbCBpdCAi
+	TWFnaWMgTHVicmljYW50Ii4gU29tZXRpbWVzIC0gIlBvd2VyIEJvdHRsZSIuDQpXaHk/PHA+DQpW
+	UC1PaWwgd2lsbCBnaXZlIHlvdSBhbiBBbWF6aW5nIGVyZTxjb25uOTg3ND5jdGlvbiBXSVRISU5H
+	IFNFVkVSQUwgU0VDT05EUywgZ3VhcmFudGVlZCE8YnI+DQpEb3VibGUtc3RyZW5ndGhlZCBvcmc8
+
+6.  Extract tags <  > from emails. I.e.
+
+	<BODY>
+	<p>Ban</grab>ned C</slat>D Gov</fragrant>ernment d</spa>on't wan</craftsme=
+	n>t m</ceramium>e t</lethal>o s</pub>ell i</scoria>t. Se</mother>e N</juri=
+	sprudent>ow &</p>
+
+	...This spells Click Here
+	C<kwxfgvhdxvm>li<kplutqqcvddqv>ck 
+	H<kagjhjocewekfru>e<kbhamujekbmpac>r<kzqyzbcnati>e 
+
+
+7.  Detect population of email body with random words. I.e.
+
+	erosible electrolyte yodel box copperas conformance bacillus peat reredos =
+	childish template liturgy newport adverse=20<BR>
+	metcalf antiquary backside gargantuan pickett ferrer churchmen helpful dow=
+	ry torque ben=20<BR>
+	williamson earthquake centrifugal eratosthenes capricious cottrell psychot=
+	herapist among antigone cotyledon abc divestiture alfalfa duopoly negro la=
+	rkspur callahan spectroscopic roadbed wrap iodine lexical octal=20<BR>
+	actinolite maternity goodyear grosset askew accessible envoy dutchman anti=
+	quary postfix nubia orange forrest beak biracial logarithm cyril redact da=
+	rrell military caesar bema bed date arrogate bundoora deface whelp ambiguo=
+
+8.  Detect other To: addresses that are similar. I.e.
+
+        To: <cba@dycon.com>, <cbinnarr@dycon.com>, <cbolin@dycon.com>
+	
+	To: pjones@dycon.com, melinda@dycon.com, cbsales@dycon.com, as9@dycon.com
+
+9.  Detect randomized text at bottom of email. I.e.
+
+	</html>rlrenw n elxgrcp odmpukoqwmm ht my lqrjlys 
+	hdchgf  q c
+	 oipol
+	oplskunic gykhcpgjwbjfzi
+	
+	...OR...
+
+	e  xksgv
+	bh
+	mdcp
+	umvhrxjm
+	ef juqn zheu yaj
+	gdn coswkahlz yq
+	  sm 
+	  ccqj mja toabykbhuqjjsmnwgq
+
+
+
+10.  Detect HTML words such as  &quot;  &nbsp;
+
+      	anyone to &quot;outbid&quot; you
+	&nbsp;<u> ju<!--p-->st hou
+
+11.  Look for "Click Here" in message.
+
+12.  Look for email addresses in From with "<>".  I.e.
+
+	"Last Minute Tree"<>
+
+13.  Look for the same URL several times in one email.
+
+	<a href="http://www.vital-learning.com"><img 			src="http://www.vital-learning.com/graphics/logo.jpg" width=310 height=88 alt="" 	border="0"></a><br>
+	</td>
+	</tr>
+	<tr valign=top>
+	<td height=100% width=0%>
+	<br>
+	<img src="http://www.vital-learning.com/graphics/p1.jpg" width=125 height=133 alt="" 	border="0" vspace=1><br>
+
+14.  Look for "UNSUBSCRIBE" messages in email. I.e.
+
+	You may also unsubscribe by going to 
+	http://www.deals4recruiters.com/unsubscribe.html. We respect all removal 
+	requests.
+
+15.  Look for "From" email addresses with auto incrementing info. I.e.
+
+	....Note December 17
+	From: "WITI 4Hire - Women in Technology Int." 			<helpforrecruiters@December17.DealsForRecruiters.net>
+
+16.  Detect your email address in email. I.e.
+
+
+	cbolin@dycon.com, can...
+	+*O *+ P +* T __ ^ O ^^ U ^ T
+	by way of http://www.timeshareservices.info/noshare.html
+
+17. No TO or BCC info. I.e.
+
+	To: 
+	BCC: 
+
+
+
+

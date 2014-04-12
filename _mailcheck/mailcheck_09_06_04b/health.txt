@@ -1,0 +1,44 @@
+'***********************************************************
+'Created September 2004
+'This file contains words related to improving one's HEALTH.
+'The wildcard character '*' can be used to indicate any
+'character. Viagra could be written as v**gr*.
+'***********************************************************
+painmedicine
+discountdrugs
+prescrip
+v*l**m
+x*n*x
+weightloss
+sexua*
+v**gr*
+dietmeds
+cialis
+cia*is
+*iagra
+*alium
+pharma
+medication
+softtab
+softgel
+diet
+yourhealth
+regalis
+natural
+health
+doctor
+treatment
+v*codin*
+p*n*s
+enlargement
+loseweight
+generic
+gainweight
+erectile
+losingweight
+relieve
+fda*approved
+fdaapproved
+pills
+
+

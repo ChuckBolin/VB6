@@ -1,0 +1,11 @@
+//Sample 1
+char a;
+int b;
+long c;
+char d=12;
+int e=-1234;
+long f=123123123;
+unsigned char g=123;
+unsigned int h=1254;
+unsigned long i=12312354;
+

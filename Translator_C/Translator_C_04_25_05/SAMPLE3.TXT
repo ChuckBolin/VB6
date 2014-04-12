@@ -1,0 +1,26 @@
+/****************
+  Sample 3
+
+****************/
+int i;
+int m = 100;
+int j;
+int k = 6;
+int n=0;
+
+//for loop
+for(i=10;i>1;i--)
+{
+  m++;/* this is an increment variable */
+
+
+for(k=3;k<5;k++){
+  n++;
+  for(j=0;j<5;j++)
+    k++;
+
+}
+}
+
+
+ 

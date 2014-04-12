@@ -1,0 +1,8 @@
+//Sample 3
+int i;
+int m;
+for(i=10;i>1;i--)
+{
+  m++;
+}
+ 

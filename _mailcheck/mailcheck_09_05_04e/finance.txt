@@ -1,0 +1,40 @@
+'*************************************************************
+'Created September 2004
+'This file contains words related to improving one's FINANCES.
+'The wildcard character '*' can be used to indicate any
+'character. Viagra could be written as v**gr*.
+'*************************************************************
+readytomake
+greatroi
+checkoutourreport
+money
+investors
+buy
+citibank
+stockreport
+casino
+blowoutsale
+advertising
+limitedtime
+make$
+youraccount
+greatprices
+giftcertificate
+che*p
+billing
+forless
+lowcost
+or*g*n*l
+%off
+e-commerce
+unlimitedwebpages
+paymore
+unbeatableprices
+mortgage
+refinance
+broker
+badcredit
+freeconsultation
+ordertoday
+serviceupdate
+

@@ -1,0 +1,1464 @@
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 0
+Description: 
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/7/2002  TIME: 1:16:00 AM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 5
+gnCols: 5
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 0
+gnProgramLosses: 0
+gnProgramTies: 0
+gnTotalCells: 25
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: 
+gsGameName: Big Game
+gnABSTotal: 0
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glAllCellsInverted: 33554431
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 0
+Description: 
+Form: AIEngineMod
+Procedure: GetTheoreticalMove
+Location in Code: Not provided!
+Info: Not provided!
+ DATE: 7/7/2002  TIME: 1:16:01 AM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 5
+gnCols: 5
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 0
+gnProgramLosses: 0
+gnProgramTies: 0
+gnTotalCells: 25
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: 
+gsGameName: Big Game
+gnABSTotal: 0
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glAllCellsInverted: 33554431
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 0
+Description: 
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/7/2002  TIME: 1:18:28 AM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 0
+gnProgramLosses: 6
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 7
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glAllCellsInverted: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 0
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 0
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 1
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 1
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 3
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 0
+Description: 
+Form: AIEngineMod
+Procedure: GetTheoreticalMove
+Location in Code: Not provided!
+Info: Not provided!
+ DATE: 7/7/2002  TIME: 1:18:29 AM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 0
+gnProgramLosses: 6
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 7
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glAllCellsInverted: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 0
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 0
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 1
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 1
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 3
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: 
+Info: Browser: C:\Program Files\Internet Explorer\iexxplore.exe ,  Help File: "C:\_geek\ai_program\aip_v01g\helpfile\start.htm"
+ DATE: 7/7/2002  TIME: 1:21:32 AM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: False
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 0
+gnProgramLosses: 0
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: 
+gsGameName: 
+gnABSTotal: 0
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glAllCellsInverted: 0
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 53
+Description: File not found
+Form: frmMain
+Procedure: mnuHelpAIP_Click
+Location in Code: Not provided!
+Info: Browser: C:\Program Files\Internet Explorer\iexxplore.exe ,  Help File: "C:\_geek\ai_program\aip_v01g\helpfile\start.htm"
+ DATE: 7/7/2002  TIME: 1:21:37 AM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: False
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 0
+gnProgramLosses: 0
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: 
+gsGameName: 
+gnABSTotal: 0
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glAllCellsInverted: 0
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/7/2002  TIME: 1:00:33 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 1
+gnProgramLosses: 10
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 2
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 1
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 3
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 1
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: Not provided!
+Info: Not provided!
+ DATE: 7/7/2002  TIME: 1:00:39 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 1
+gnProgramLosses: 10
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 128
+glProgram: 256
+glAllCells: 384
+glFreeCells: 127
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 2
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 1
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 3
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 1
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/7/2002  TIME: 1:00:58 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 1
+gnProgramLosses: 10
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 2
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 1
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 3
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 1
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 10
+Info: 
+ DATE: 7/7/2002  TIME: 1:02:07 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 1
+gnProgramLosses: 10
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 2
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 1
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 3
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 1
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 14
+Info: 
+ DATE: 7/7/2002  TIME: 1:02:44 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 1
+gnProgramLosses: 10
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 2
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 1
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 3
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 1
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 8  9
+Info: 
+ DATE: 7/7/2002  TIME: 1:04:12 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 1
+gnProgramLosses: 10
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 2
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 1
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 3
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 1
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 75
+Description: Path/File access error
+Form: frmMain
+Procedure: ShowFile
+Location in Code: 40
+Info: 
+ DATE: 7/8/2002  TIME: 10:49:14 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 5
+gnCols: 5
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 0
+gnProgramLosses: 0
+gnProgramTies: 0
+gnTotalCells: 25
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: 
+gsGameName: Tyr5
+gnABSTotal: 0
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 0
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 75
+Description: Path/File access error
+Form: frmMain
+Procedure: ShowFile
+Location in Code: 
+Info: 
+ DATE: 7/8/2002  TIME: 10:51:02 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 4
+gnCols: 4
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 0
+gnProgramLosses: 0
+gnProgramTies: 0
+gnTotalCells: 16
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: 
+gsGameName: ddd
+gnABSTotal: 0
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 0
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/10/2002  TIME: 12:02:41 AM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 3
+gnProgramLosses: 12
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 3
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 2
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 4
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 2
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/10/2002  TIME: 12:03:15 AM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 3
+gnProgramLosses: 12
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 0
+glAllCells: 0
+glFreeCells: 511
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 3
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 2
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 0
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 4
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 2
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/10/2002  TIME: 2:42:33 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 4
+gnProgramLosses: 17
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 4
+glAllCells: 4
+glFreeCells: 507
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 3
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 3
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 1
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 6
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 4
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: Not provided!
+Info: Not provided!
+ DATE: 7/10/2002  TIME: 2:42:43 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 4
+gnProgramLosses: 17
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 16
+glProgram: 68
+glAllCells: 84
+glFreeCells: 427
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 3
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 3
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 1
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 6
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 4
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/10/2002  TIME: 2:43:25 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 4
+gnProgramLosses: 17
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 2
+glAllCells: 2
+glFreeCells: 509
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 3
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 3
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 1
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 6
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 4
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: Not provided!
+Info: Not provided!
+ DATE: 7/10/2002  TIME: 2:43:29 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 4
+gnProgramLosses: 17
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 2
+glAllCells: 2
+glFreeCells: 509
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 3
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 3
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 1
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 6
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 4
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 
+Info: 
+ DATE: 7/10/2002  TIME: 2:44:39 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 4
+gnProgramLosses: 17
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 2
+glAllCells: 2
+glFreeCells: 509
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 3
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 3
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 1
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 6
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 4
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 110
+Info: Not provided!
+ DATE: 7/10/2002  TIME: 2:45:17 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 5
+gnProgramLosses: 17
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 64
+glAllCells: 64
+glFreeCells: 447
+gbWinNotSaved: True
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 4
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 3
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 1
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 6
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 4
+
+********************************************************
+ 
+ 
+********************************************************
+ E R R O R ! ! !
+No.: 9
+Description: Subscript out of range
+Form: AIEngineMod
+Procedure: GetFactBasedMove
+Location in Code: 250
+Info: 
+ DATE: 7/10/2002  TIME: 2:47:27 PM
+********************************************************
+        G L O B A L   V A R I A B L E S
+********************************************************
+gbFilenameExists: True
+gbWin: False
+gbProgramTurn: True
+gbGameOver: False
+gbLoss: False
+gbTie: False
+gbTeacherDone: False
+gnGoFirst: 1
+gnRows: 3
+gnCols: 3
+gnProgramValue: 1
+gnTeacherValue: 2
+gnProgramWins: 4
+gnProgramLosses: 17
+gnProgramTies: 0
+gnTotalCells: 9
+gnGameType: 1
+gnMoveCount: 0
+gnGameCount: 0
+gnPlayCount: 0
+glCellColor: 16777215
+glCellSelectedColor: 65280
+gsRules: 
+gsVersion: v0.1g
+gsProgramSymbol: X
+gsTeacherSymbol: O
+gsFilename: C:\_geek\ai_program\aip_v01g\game1.aip
+gsGameName: TIC-TAC-TOE
+gnABSTotal: 8
+glTeacher: 0
+glProgram: 32
+glAllCells: 32
+glFreeCells: 479
+gbWinNotSaved: False
+uABS( 0) Pattern : 0
+uABS( 0) Wins : 0
+uABS( 1) Pattern : 73
+uABS( 1) Wins : 1
+uABS( 2) Pattern : 146
+uABS( 2) Wins : 3
+uABS( 3) Pattern : 292
+uABS( 3) Wins : 1
+uABS( 4) Pattern : 56
+uABS( 4) Wins : 3
+uABS( 5) Pattern : 7
+uABS( 5) Wins : 2
+uABS( 6) Pattern : 448
+uABS( 6) Wins : 1
+uABS( 7) Pattern : 84
+uABS( 7) Wins : 6
+uABS( 8) Pattern : 273
+uABS( 8) Wins : 4
+
+********************************************************
+ 

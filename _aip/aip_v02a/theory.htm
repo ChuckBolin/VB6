@@ -1,0 +1,147 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>AIP Theory Page</title>
+</head>
+
+<body style="font-family: Arial">
+
+<h4><big>AIP Theory</big></h4>
+
+<ul>
+  <li><a href="#AI Program Modules">AI Program Modules</a></li>
+  <li><a href="#Observing Play">Observing Play</a></li>
+  <li><a href="#How Does AIP Decide?">How Does AIP Decide?</a></li>
+  <li><a href="help.htm">Return to Help Page</a><br>
+  </li>
+</ul>
+
+<hr>
+
+<h4><a name="AI Program Modules"><font color="#008040">AI Program Modules</font></a></h4>
+
+<p>Game play is controlled and regulated by&nbsp; <strong>Public Sub PlayCoordinator()</strong>
+located in the <em><strong>MainSubs.bas</strong></em> file.&nbsp; This procedure calls up
+the AI Engine with the function call <strong>nProgramMove = AIEngine</strong> located
+inside the PlayCoordinator SUB procedure.</p>
+
+<p><strong>Public Function AIEngine() As Integer</strong> is located in <strong><em>AIEngineMod.bas</em></strong>.
+&nbsp; It returns an integer corresponding to the cell position within the grid that AI
+wants to play.</p>
+
+<p>The heart of the AIEngine rests upon <strong>nPlay = GetFactBasedMove.&nbsp; </strong>This
+function located inside the <em><strong>AIEngineMod.bas</strong></em> module&nbsp; is
+responsible for evaluating current information regarding game play, location of the
+program and teacher pieces and history pertaining to what constitutes a win.&nbsp; If the
+function returns a zero to the AIEngine that means it could not decide a good move based
+upon facts alone.&nbsp; Therefore, AIEngine then executes <strong>nPlay = GetRandomMove </strong>which
+is also located inside the <strong><em>AIEngineMod.bas </em></strong>module.</p>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+
+<h4><a name="Observing Play"><font color="#008040">Observing Play</font></a></h4>
+
+<p>This can be done by selecting the <strong>AI Knowledge Tab</strong>.&nbsp; Each play by
+the AI program and by the teacher is recorded to this location.</p>
+
+<p><img src="pattern.jpg" width="676" height="462" alt="pattern.jpg (50768 bytes)"></p>
+
+<p align="center"><strong>Figure 1</strong></p>
+
+<p>The diagram above shows how the cells are numbered within the grid.&nbsp; The data to
+the right of the grid represents winning patterns that can be played by the program (left
+column) and by the teacher (right column). NOTE: This information represents the programs
+level of knowledge. It usually takes several games for this knowledge base to increase.</p>
+
+<p>Each column of binary data has the digits 9 through 1. This indicates that all bits
+'1's and '0's below the respective cell number are applicable to that cell number. &nbsp;
+Observe the program information column on the left side.&nbsp; Look at '9'. &nbsp; Count
+the number of '1's. There are three of them. This means there are three winning patterns
+that can be constructed with a piece (X or O) at cell location 9. &nbsp; This makes sense
+since a horizontal, diagonal and vertical row can be played from that cell.</p>
+
+<p>Each binary pattern consists of 9 bits.&nbsp; To the right of the binary patterns is an
+equal sign '=' followed by two numbers. Observe the first binary pattern for the teacher.
+It reads ' = 3 (2)'. The three gives the horizontal sum (H Sum) of the bits within the 9
+bit binary number.&nbsp; Count the 1's to the left of the equal sign to see that this is
+true.</p>
+
+<p>The number to the immediate right of the H Sum is located inside parentheses. This
+number indicates how many times this binary pattern has result in a win during game play
+for either the teacher or program.</p>
+
+<p>At the bottom of the two columns of data, are numbers called vertical sums (V Sum).
+They represent the sum of the bits immediately above them. For example, the cell '9'
+position for the program data (left column) is equal to '3'. This can be verified by
+adding the bits directly above the '3'.</p>
+
+<p>One additional point.&nbsp; The bits inside each binary pattern that is set to '1'
+represents an empty cell on the grid.&nbsp; All moves made thus far by the program or
+teacher are no longer necessary.</p>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+
+<h4><a name="How Does AIP Decide?"><font color="#008040">How Does AIP Decide?</font></a></h4>
+
+<p>Three pieces of information are critcal:<strong> H Sums, Wins and V Sums</strong>. The
+relevance are explained as follows.</p>
+
+<p><u><strong>H Sums (Horizontal Sums)</strong></u> represent the number of cells that
+must be played to win a game.&nbsp; As the program makes its moves, on a particular
+winning pattern, the value of H Sum decreases. When H Sum is equal to 1 that means that
+the program, for example, can win the very next&nbsp; move by playing that cell indicated
+by the last remaining bit in the binary number.</p>
+
+<p><img src="pattern2.jpg" width="279" height="303" alt="pattern2.jpg (11579 bytes)"></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>&nbsp;&nbsp;&nbsp; Figure 2</strong></p>
+
+<p>In grid A above, the top row is empty and therefore available to 'X'.&nbsp; This is
+represented by the binary pattern 000 000 111. Be careful reading this. The least
+significant bit (LSB) is the first cell which is in the top left corner.&nbsp; The binary
+number in grid A is equal to 3. This means that three plays are required for this pattern
+to be won.&nbsp; Assume the program plays an 'X' in cell 3 as shown in grid B.</p>
+
+<p>The binary pattern changes giving a H Sum&nbsp; = 2.&nbsp; 'X' is played again as in
+grid C.&nbsp; Now the binary pattern shows only one '1' bit.&nbsp; This pattern is equal
+to a '1', meaning that in one more play this program will win.</p>
+
+<p>The function <strong>GetFactBasedMove </strong>does in fact check for a H Sum =1 for
+the program. If it exists it plays it. On the other hand, if 'X' cannot win in 1 play,
+then it checks the teacher's binary pattern. If that H Sum=1 then the teacher's play must
+be blocked. AIP does this.</p>
+
+<p><u><strong>Wins</strong></u> provide a measure of how often this pattern has resulted
+in a win in the past.&nbsp; Let's assume that the lowest H Sum is equal to 2 and that thee
+patterns have this value. That means there are three possible ways for 'X' to win in two
+moves.&nbsp; Which should it play? AIP looks at history and picks the binary pattern with
+the most number of wins. If it doesn't find any history it picks the first binary pattern
+in the list.</p>
+
+<p><u><strong>V Sums</strong></u> help to select the specific bit which corresponds to an
+actual grid cell. Once a binary pattern is chosen, it will consist of 2, 3 or more bits
+that are set to '1' (for 5x5 grid games). The V Sum tallys all of the bits and tells AIP
+which cells result in the most wins.</p>
+
+<p>Observe the program binary data in Figure 1. Note that a binary pattern with H Sum=3
+has 7 wins. Therefore AIP has chosen this pattern.&nbsp; AIP must now decide which
+particular bit to play.&nbsp; It decides this by find a V Sum with the highest value that
+also corresponds to a bit of '1' in the binary pattern.&nbsp;&nbsp; Notice the two flatten
+red circles. They intersect on the 5th cell on the binary pattern with 7 wins. This is the
+center of the grid. As all Tic Tac Toe players know, this center cell or location can
+result in four possible winning patterns as denoted by the V Sum=4.</p>
+
+<p>Last act of desperation. When none of the above data is not meaningful such as at the
+beginning of a training session AIP yields to the function named <strong>GetRandomMove </strong>which
+produces a random legal move.</p>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+</body>
+</html>

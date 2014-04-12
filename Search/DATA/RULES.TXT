@@ -1,0 +1,1209 @@
+5.3.1 General Design & Safety Rules
+
+<R01> Each team may enter ONE robot into the 2006 FIRST Robotics Competition. That robot must be
+assembled using materials from the 2006 FIRST Kit of Parts, and other allowed materials as specified in the
+Rules, and must fully comply with all Rules.</R01>
+
+<R02> Energy used by FIRST Robotics Competition robots, (i.e., stored at the start of a match), may only come
+from the following sources:
+• Electrical energy derived from the onboard 12V and 7.2V batteries
+• Compressed air stored in the pneumatic system, but only supplied by the compressor included in the kit,
+and stored at a maximum pressure of 120 PSI in no more than two Clippard Instruments tanks.
+• A change in the altitude of the robot's center of gravity.
+• Storage achieved by deformation of robot parts. Teams must be very careful when incorporating springs
+or other items to store energy on their robot by means of part or material deformation. A robot may be
+rejected at inspection if, in the judgment of the inspector, such items are unsafe.</R02>
+
+<R03> Protrusions from the robot must not pose hazards or be dangerous to team members or event staff. If, in
+the judgment of the inspectors or referees, a device on the robot poses a hazard (particularly puncture or
+impalement hazards) then the team will be required to remedy the situation before the robot will be allowed to
+play. If the robot includes protrusions that form the “leading edge” of the robot as it drives, and are less than
+one square inch in surface area, it will invite detailed inspection. For example, forklifts, lifting arms,
+grapplers. etc. may be carefully inspected for these hazards.
+
+<R04> "Wedge” robots are not allowed. Robots must be designed so that interaction with other robots results in
+pushing rather than tipping or lifting. Neither offensive nor defensive wedges are allowed. All parts of a
+robot between 0 and 8.5 inches from the ground (the top of the bumper zone – see Rule <R35>) that might
+push against another robot must be within 10 degrees of vertical. Devices deployed outside the robot's
+footprint should be designed to avoid wedging. If a mechanism or an appendage (a ball harvester, for
+example) becomes a wedge that interferes with other robots, penalties, disabling, or disqualification can occur
+depending on the severity of the infraction.
+
+5.3.2 Robot Physical Rules
+5.3.2.1 Robot Size
+
+<R05> At the beginning of the match, the maximum allowed size of the robot is 28 inches (71.12cm) by 38
+inches (96.52cm) by 60 inches (152.40cm) tall.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 7 of 30
+
+<R06> The starting configuration of a robot immediately prior to being enabled by the Arena Controller at the
+beginning of a match is the basis upon which a robot will be inspected for compliance with the maximum
+allowed size. This configuration of the robot must fit within a FIRST Sizing Device that has the following
+inside surface dimensions: a flat, level rectangular base 28 inches x 38 inches, and a height of 60 inches.
+Other than resting on the floor of the Sizing Device, no part of the robot may break the plane of the sides or
+top of the Sizing Device during size inspection. The robot must be self-supporting while in the Sizing
+Device.
+
+<R07> If a robot has been designed such that it may have more than one possible starting configuration, the
+largest possible configuration must be the one used during size inspection.
+
+<R08> Once a match begins, robots may extend horizontally beyond the 28-inch x 38-inch starting size under
+their own power, up to a limit of 60 inches in either horizontal cardinal dimension. The robot may not exceed
+the 60-inch height restriction at any time during the match. In other words, after the start of the match the
+robot may expand up to a maximum volume of 60 inches by 60 inches by 60 inches. The one exception to the
+height restriction is provided in Rule <R13>. Any restraints (elastic bands, springs, etc.) that are used to
+maintain starting size must remain attached to the robot for the duration of the match.
+
+5.3.2.2 Robot Weight
+
+<R09> The maximum allowed weight of all robot configuration mechanisms combined, not including an Exide
+battery and its associated half of the Anderson cable quick connect/disconnect pair, and any robot
+bumper assemblies is 120 pounds (54.43 kg). At the time of weigh in, the basic robot structure and all
+elements of all additional mechanisms that might be used in different configurations of the robot must be
+weighed together. Included in the weight limit is the robot control system, back-up 7.2V battery, decorations,
+and any other attached parts, but not bumpers (see immediately below and Rule<R35>), the Exide EX18-12
+battery and its associated half of the Anderson connection pair (including no more than 12 inches of cable per
+leg, the associated cable lugs, connecting bolts, and insulating electrical tape)
+NOTE
+Weight limit excludes the 12 volt
+Battery and Anderson cable half
+• Example: A team has decided to design its robot such that, before any given match, it may quickly change
+the configuration of the robot based on perceived strengths or weaknesses of an opponent team's robot.
+The team accomplished this by constructing its robot as a basic drive train platform plus two versions of a
+ball catcher, each catcher being a quick attach / detach device such that either one or the other catcher (but
+not both) may be part of the robot at the beginning of a match. Their robot's platform weighs 107 lb,
+version A of the catcher weighs 6 lb, and version B weighs 8 lb. Although only one version will be on
+the robot during a match, both catchers (and all components of the catchers that would be used during the
+match) must be on the weight scale along with the robot platform during weigh in. This would result in a
+rejection of the robot because its total weight comes to 121 lb.
+
+<R10> The weight of any bumper assemblies included on the robot that are in compliance with Rule <R35> is
+excluded from the robot weight limit specified in Rule <R09>, up to a maximum of 15 pounds.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 8 of 30
+
+5.3.2.3 Robot Visibility
+
+<R11> Robots must display their school name, and primary sponsor name and/or logo whenever the robot is on
+the field (including practice sessions). The support provided by the corporate sponsors and mentors on your
+team is important, and is to be acknowledged with the appropriate display of their names/logos on the exterior
+of the robot.
+
+<R12> The judges, referees, and announcers must be able to easily identify robots by Team Number. Teams
+must display their Team Number in four locations at approximately 90-degree intervals around the side of the
+robot. The numerals must be at least 4 inches high, at least in 3/4 inch stroke width and in a contrasting
+color from its background. Team Numbers must be clearly visible from a distance of not less than 100 feet.
+
+<R13> Robots must use one of the two colored bicycle flags provided at the event queuing location to display
+their alliance color (red or blue). Each robot must include a 12 inch long, 1/2” ID PVC tube, capped at the
+bottom, permanently mounted on the robot such that when a 3 foot long, 1/4 inch diameter flagpole is inserted
+the top of the flagpole is no higher than 6 feet from the ground and the top of the flagpole is at least 12 inches
+higher than any other point on the robot (+/- 1/2 inch). The flagpole must be mounted such that it starts the
+match, and remains, approximately vertical. The flagpole receptacle must be statically mounted, and not
+articulated or actuated.
+
+<R14> Robots must use the Alliance Color LED provided in the Kit of Parts to display their alliance color (red or
+blue). The Color LED will be used by field personnel during the matches for diagnostic purposes. It must be
+mounted on the robot such that their displayed color is easily visible while standing in front of the robot in its’
+starting position. Instructions for connecting the Color LEDs are provided in the Innovation First Controller
+manual. The Robot Controller directly powers and controls the Team Color LEDs. The user has no control
+over the Team Color LEDs and no programming is required.
+
+5.3.3 Fabrication Schedule
+
+One of the fundamental values of FIRST is the concept of “gracious professionalism.” FIRST recognizes that it is
+the responsibility of each team to abide by the fabrication schedule rules defined below. As compliance with
+these rules takes place outside of the competition venues, FIRST is not able to directly monitor compliance. We
+are relying upon the honor, integrity, and professional behavior of each team to recognize and abide by the
+fabrication schedule rules. Teams must design and construct their robot within the schedule constraints defined as
+follows:
+
+<R15> Prior to the Kick-off: Before the formal start of the robot Build Season, teams are encouraged to think as
+much as they please about their robots. They may develop prototypes, create proof-of-concept models, and
+conduct design exercises. Teams may gather all the raw stock materials and COTS items they want. But
+absolutely no fabrication or assembly of any elements intended for the final robot is permitted prior to the
+Kick-off presentation. Any MECHANISMS assembled prior to the Kick-off presentation may be used for
+prototyping or educational purposes, but MAY NOT be used on the final ROBOT.
+
+<R16> During the Build Season: During the period between the Kick-off and robot shipment deadline, teams are
+to design and fabricate all the components and mechanisms required to complete their robot. They are
+encouraged to use all the materials, sources and resources available to them that are in compliance with the
+rules of the 2006 FIRST Robotics Competition. As the robot shipment deadline approaches, all work on the
+robot must cease and the robot must be placed in a “hands-off” condition. The entire robot (including all
+FABRICATED ITEMS intended for use during the competition in alternative configurations of the robot)
+must be crated and out of team hands by the robot shipment deadline.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 9 of 30
+
+<R17> During the “FIX-IT WINDOWS” following the shipment of the robot: During this period, all teams may
+utilize one or two 5-hour FIX-IT-WINDOWS to manufacture SPARE and REPLACEMENT PARTS and
+develop software for their robot at their home facility. Fabrication of UPGRADE PARTS is not permitted
+during this period. The timing of these “FIX-IT WINDOWS” is at the discretion of the team, but all work
+must be completed by 5:00pm on the Friday following the robot shipment deadline. Teams may manufacture
+all the SPARE and REPLACEMENT parts they want, but the amount of parts they can bring to the
+competition event is limited (as specified in Rule <R29>).
+
+<R18> Prior to the competitions: After the close of the “FIX-IT WINDOWS” and prior to the competition, the
+team must put down their tools, cease fabrication of robot parts, and cease all software development. Take
+this opportunity to rest, recover from the build season, and relax. Teams may scout other teams, gather and
+exchange information, develop game-playing strategies, collect raw materials, prepare tool kits, plan how to
+make repairs, etc. in preparation for the upcoming competitions. But no construction or fabrication of any
+hardware, or development of any software, is allowed.
+
+<R19> At the competitions: Teams are allowed to repair, modify or upgrade their competition robots while
+participating in a competition event. To support this, teams may bring SPARE, REPLACEMENT and
+UPGRADE PARTS and COTS items to the competitions (within the limits specified in Rules <R28> and
+<R29>). Work may only be done on-site in the Pits or at any facility made available to all teams at the event
+(e.g., in a team’s repair trailer or a local team’s shop offered to all teams to use). Fabrication may be done
+when the Pit area is open for normal operations during the period starting with the opening of the Pit area on
+Thursday and ending at 4:00PM on Saturday. All work must be completed when the Pit area closes each
+evening. Parts may not be removed from the competition site and retained overnight after the Pit area closes.
+
+<R20> During the “FIX-IT WINDOW” following each Regional Competition weekend: During this period, all
+teams (not just those teams attending a Regional Competition) may utilize one or two 5-hour FIX-ITWINDOWS
+to manufacture SPARE, REPLACEMENT and UPGRADE PARTS and develop software for
+their robot at their home facility (not at the competition site). The timing of these “FIX-IT WINDOWS” is at
+the discretion of the team, but all work must be completed between the close of the Competition and 5:00pm
+on the Thursday following the Regional Competition weekend. At the conclusion of a regional competition
+event, teams may take a limited amount of broken or malfunctioning COMPONENTS or MECHANISMS
+back to their home facility to make SPARE or REPLACEMENT PARTS. The purpose of this rule is to allow
+teams to make critical repairs to existing parts to enable them to compete in following events. The intent of
+this rule is not to have teams take their entire robot back home and make large-scale revisions or upgrades to
+the robot. Teams may manufacture and/or repair all the parts they want, but the amount of parts they can
+bring to the competition event is limited (as specified in Rule <R29>).
+
+5.3.4 Robot Material Utilization Rules
+
+<R21> Robots entered into the 2006 FIRST Robotics Competition must be fabricated and/or assembled from
+COMPONENTS, MECHANISMS and COTS items that are constructed from:
+• Items provided in the FIRST supplied Kit of Parts (or their exact replacement part)
+• Allowed Additional Parts and Materials as defined in this section in quantities consistent with the Cost
+Accounting rules.
+
+<R22> Individual COMPONENTS from robots entered in previous FIRST competitions may be used on 2006
+robots IF they satisfy ALL of the rules associated with materials/parts use for the 2006 FIRST Robotics
+Competition.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 10 of 30
+
+<R23> Teams participating in the 2006 FIRST Robotics Competition that are located outside North America may
+not be able to acquire the exact part (as identified by specific part numbers) or materials of the specified
+dimensions as defined in these rules. In such situations, international teams may submit a request for
+approval of nearest-equivalent parts (e.g. nearest metric equivalent, etc.) to FIRST Headquarters. FIRST will
+determine suitability of the part. If approved, a confirming e-mail will be sent to the team. The team must
+bring a copy of the e-mail to any competition event to verify that the use of an alternate part has been
+approved.
+
+<R24> Individual COMPONENTS retrieved from previous robots and used on 2006 robots must have their
+undepreciated cost included in the 2006 robot cost accounting, and applied to the overall cost limits.
+
+<R25> Motors, pumps, and, robot controllers from previous robots may not be used in addition to those provided
+in the 2006 kit of parts. They may be used as direct one-to-one SPARE PARTS for those provided if the
+provided part fails or is damaged. They may only be used if they are identical to the part being replaced (note
+that 2002 and 2003 Fisher-Price motors are not the same as those in the 2006 kit, and, therefore, cannot be
+used).
+
+<R26> MECHANISMS from robots entered in previous FIRST competitions may not be used.
+
+<R27> Only Victor 884 Speed Controllers are permitted. Victor 883 and 885 Speed Controllers may not be used.
+
+<R28> Teams may acquire and bring an unlimited amount of COTS items to the competitions to be used to
+repair and/or upgrade their robot at the competition site.
+
+<R29> Teams may bring a maximum of 25 pounds of custom FABRICATED ITEMS (SPARE PARTS,
+REPLACEMENT PARTS, and/or UPGRADE PARTS) to each competition event to be used to repair and/or
+upgrade their robot at the competition site. All other FABRICATED ITEMS to be used on the robot during
+the competition must arrive at the competition venue packed in the shipping crate with the robot.
+
+<R30> Mechanisms or components on the robot must not pose obvious risk of entanglement. If, in the judgment
+of the inspectors, a device on the robot poses an entanglement risk then the team will be required to remedy
+the situation before the robot will be allowed to play. If the structure of a component permits easy penetration
+by an object less than four square inches in cross section, it will invite detailed inspection. For example, nets,
+loose rope or wire, voluminous sheets of fabric, etc. may be carefully inspected for these hazards. Willful
+entanglement actions are addressed in Rule <G23> in Section 4.3.4 – Robot Operations of “The Game”
+section.
+
+<R31> No devices or decorations are permitted on the robot that are intended to jam or interfere with the
+operation of the vision system (i.e. changing robot color to confuse opponent’s vision system).
+
+<R32> Robot wheels, tracks, and other parts intended to provide traction on the playing field may be purchased
+or fabricated (“traction devices” include all parts of the robot that are designed to transmit any propulsive
+and/or braking forces between the robot and the playing field). In no case will traction devices that damage
+the carpet or other playing surfaces be permitted. Traction devices may not have surface features such as
+metal, sandpaper, hard plastic studs, cleats, or other attachments. Anchors, i.e. devices that are deployed/used
+to keep one’s robot in one place and prevent if from being moved by another robot, cannot use metal in
+contact with the carpet or other playing surfaces to “stay put.” Gaining traction by using adhesives or Velcrolike
+fastener material is not allowed.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 11 of 30
+
+<R33> Adhesive backed tapes are NOT allowed except as follows:
+• Velcro tape, any hook and loop tape or double-sided sticky foam may be used for attaching components
+to the robot.
+• Reflective tape may be used with optical sensors in small amounts.
+• Adhesive backed tape and labels may be used for labeling purposes on wires, cables, pneumatic lines, etc.
+• Electrical tape may be used as an electrical insulator.
+
+<R34> Lubricants may be used only to reduce friction within the robot. Lubricants shall not be allowed to
+contaminate the playing field components, or other robots.
+
+<R35> The use of bumpers is strongly encouraged. Bumpers can reduce damage to robots when they contact
+another robot or field elements. If you choose to use the specified bumpers, you will have both a more robust
+robot and the traction advantage of a heavier robot. Bumper height has been specified so that robots will
+make contact bumper-to-bumper and so that the balls will be pushed rather than pulled under the robots. Note
+that robot wheel/tracks must be properly positioned relative to the bumpers to avoid trouble climbing the
+ramp. Obviously harvesting balls from the floor or launching balls along the floor must be done through gaps
+in bumpers or over bumpers. As the bumper mounts are being designed, please think about carrying the
+robot. The bumpers do not make good handles. Please do not “lawyer” the bumper rule - it is meant to help.
+If used, bumpers must satisfy the following constraints:
+• Bumpers must be designed as shown in figure 5-1
+• Bumpers must be removable so that they can be weighed separately from the robot
+• Bumpers must weigh, in total, no more than 15 pounds including any fasteners that attach them to the
+robot
+• Bumpers must not include sections that weigh more than 3 ounces per inch (i.e. no short bumpers with
+giant heavy fasteners)
+• Bumpers must use a stacked pair of 2-1/2 inch “pool noodles” as the bumper material
+• Bumpers must use 3/4 inch plywood backing 5 inches tall as the bumper structure to attach the bumper
+(“pool noodles”) to the robot
+• Bumpers must be covered with a tough smooth cloth (1000 denier Cordura Plus® strongly recommended)
+• Bumpers may extend outside the horizontal starting dimensions for the robot (as specified in Rule <R05>)
+by up to a maximum of 3-1/2 inches per side, nothing other than pool noodles and cloth may extend more
+than1 inch beyond the robot boundaries
+• Bumpers must be positioned on the robot so that they remain between 2-1/2 inches and 8-1/2 inches
+above the floor
+Figure 5-1
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 12 of 30
+
+5.3.4.1 Kit of Parts Rules
+
+<R36> So that every robot’s maximum power level is the same, the motors in the kit may not be modified in any
+way, except as follows:
+• The mounting brackets and/or output shaft/interface of the motors may be modified to facilitate the
+physical connection of the motor to the robot and actuated part.
+• The gearboxes for the Fisher-Price, and Globe motors are not considered “integral” and may be separated
+from the motors. FIRST will not provide replacements for parts that fail due to modification.
+• The electrical input leads on the motors may be trimmed to length as necessary.
+The intent is to allow teams to modify mounting tabs and the like, not to gain a weight reduction by
+potentially compromising the structural integrity of any motor. The integral mechanical and electrical system
+of the motor is not to be modified.
+
+<R37> Teams may replace lost or damaged Kit COMPONENTS only with identical COMPONENTS of the
+same material, dimensions, and treatment.
+
+<R38> Materials in the Kit may not be changed chemically with the following exceptions:
+• Rope ends may be singed to prevent loose ends or to bind them together
+• Metal may be heat treated
+• Metal may be plated or anodized
+
+5.3.4.2 Additional Parts and Materials Rules
+Besides items directly supplied in the 2006 Kit, teams are allowed to use Additional Parts and Materials in
+the construction of their robots.
+
+<R39> The use of an Additional Part or Material shall not violate any design rule.
+
+<R40> Additional Parts shall not be made from hazardous materials or be unsafe.
+
+<R41> Additional Parts must be generally available from suppliers such that any other FIRST team, if it so
+desires, may also obtain them at the same price. A specific device fabricated by a team from non-2006 Kit
+materials does not have to be available to others; however, the materials it is made from must be available to
+other teams.
+
+<R42> The costs of all Additional Parts and Materials must be in compliance with the Cost Accounting Rules of
+Section 5.3.4.3.
+
+<R43> Specific items allowed include:
+• Additional HITEC HS-322S servos.
+• Additional Victor 884 Speed Controllers and Spike Relays, as needed.
+• Additional solenoid valves, air cylinders, and connecting fittings.
+• Teams may purchase either one additional 4-slot Maxi-block circuit breaker panel OR one 2005 FRC
+circuit breaker panel, and utilize it on their 2006 robot in addition to the circuit breaker panels provided in
+the kit of parts.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 13 of 30
+• Teams may utilize one or two additional small CIM motors (part #FR801-001) in addition to those
+provided in the kit of parts. This means that you may use up to four, and no more, small CIM motors on
+the robot.
+
+<R44> Specific items NOT allowed include:
+• Batteries different from or in addition to those provided in the Kit.
+• Circuit breakers different from those provided in the Kit. Note: the Snap Action brand circuit breakers
+provided have unique “trip” characteristics. No substitute brands are permitted.
+• Electric motors different from or in addition to those in the Kit, with the exception of those specifically
+permitted by Rule <R43>.
+• Any air compressor, pressure relief valves, or air storage tanks other than those provided in the Kit.
+• Hydraulic fluids or hydraulic components.
+• Materials classified as hazardous by their MSD Sheets (teams should provide MSD Sheets for any
+materials they use that might be considered questionable during robot inspection).
+
+<R45> Additional electronic components for use on the robot must be either COTS items, or assembled from
+COTS items. Additional electronic components include any object that conducts electricity other than IFI
+relays and speed controllers, wires, connectors and solder.
+
+<R46> Refer to the Part Use Flowchart to help determine the legality of a part.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 14 of 30
+START HERE
+May we use a part or material on our robot?
+Is the part a safety hazard
+or likely to damage robots,
+the field, or interfere with
+the humans or the controls?
+Is the part used as a
+bumper?
+Is the part used as a
+non-functional
+decoration?
+Kit Part?
+Was the part or material
+included in the Kit of
+Parts?
+Pneumatics?
+Is the part a pneumatic
+component?
+Is it a lubricant used in a
+way that could contaminate
+the field, robots, or balls?
+(see Robot Section)
+Traction Devices?
+Is the part a wheel, tread, or
+other “traction device”?
+(See Robot Section)
+Electronics?
+Is the part an electronic
+component, i.e., designed
+to conduct electricity?
+Is it adhesive tape used for
+something other than
+electrical insulation?
+(See Robot Section)
+Energy Sources?
+Is the part an energy source
+(battery, gasoline, fuel cell,
+solar panel, gerbil, etc.)?
+Does the part violate the
+Bumper rule in the
+Robot Section?
+Does the use of the part
+violate any rule in the
+Robot Section?
+Yes
+The part may be
+used
+Yes
+The part may be used as a
+Bumper
+Yes
+The part may be used as a
+Non-functional Decoration
+Is it a legal additional
+CIM motor or servo?
+Is the part a motor,
+solenoid, pump, or other
+actuator?
+Does it have features that
+might damage the carpet or
+field/field structures?
+(See Robot Section)
+Is it a purchased
+fitting or valve rated
+for 125 psi?
+Purchased cylinder
+identical to those on
+the custom order
+form?
+Is it a previous year’s
+cylinder, valve, or
+tubing?
+NO!
+It may not be used
+Does it exceed quantity
+limits and/or cost limits?
+(See Robot Section)
+Is the part or material offthe-
+shelf or is it custom
+made by the team after the
+start of the 2006 Kickoff?
+(See Robot Section)
+Is the part an Additional
+Electronics component?
+(See Robot Section)
+Is it an Air Cylinder
+ordered from the
+Custom Cylinder Order
+Form?
+2006 Parts Use Flowchart
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+NO
+NO
+NO
+YES
+NO
+NO
+NO
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+NO
+NO
+NO
+NO
+YES
+YES
+YES NO
+YES
+NO
+NO
+NO
+NO
+NO
+YES
+NO
+NO
+NO
+NO
+NO
+NO
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 15 of 30
+
+
+5.3.4.3 Cost Accounting Rules
+
+
+<R47> The costs of all non-2006 Kit parts and materials used in the construction of a ROBOT (as defined in
+5.1.1) must be recorded (in US dollars) by the team, and a list of all such items and their costs presented at
+robot inspection. An Additional Part or Material is defined as an allowed additional quantity of any part
+provided in the 2006 Kit, or any item that was not included in the 2006 Kit's inventory list.
+
+<R48> All costs are to be determined as explained in Section 5.3.4.4 - Additional Parts - Cost Determination.
+
+<R49> The total cost of all non-Kit items may not exceed $3,500.00 USD. No individual COTS electronic
+component shall have a value of over $200.00 USD. No individual non-electronic item shall have a value of
+over $400.00. The total cost of components purchased in bulk may exceed $400.00 USD as long as the cost of
+an individual component does not exceed $400.00. The following items are EXCLUDED from the total cost
+calculation:
+• The cost of any non-functional decorations
+• The cost of individual fasteners, adhesives, or lubricants, unless any one component exceeds $1.00
+• The costs of SPARE PARTS. A SPARE PART used as a direct replacement for a failed or defective
+robot part (either Kit part or non-Kit part) that has already been included in the cost accounting is covered
+by the accounting for the original part.
+• The costs of additional Speed Controllers and Spike Relays obtained from Innovation First Inc. for use
+with Kit motors.
+• All costs for the construction of devices used to control the robot from the Alliance Station (i.e. the
+operator interface and any associated custom equipment).
+
+<R50> The costs of additional non-spare robot control system components obtained from Innovation First Inc.
+other than Speed Controllers and Spike Relays are to be included in the above $3500 limit.
+
+5.3.4.4 Additional Parts - Cost Determination
+The "cost" of each additional item is calculated based on the following criteria, as applicable:
+• The purchase price of a COTS item offered for sale by a vendor to any customer.
+• The total cost (materials + labor) of an item you pay someone else to make.
+o Example: A team orders a custom bracket fabricated by a vendor to the team's specification. The
+vendor's material cost and normally charged labor rate apply.
+• The fair market value of an item obtained at a discount or as a donation. Fair market value is that price at
+which the item would be normally offered by the supplier to other customers. Also considered to be "fair
+market value" are the discounted prices offered to all teams by suppliers with established relations with
+FIRST.
+o Example: Special price discounts from MSC Industrial Supply Co. and Terminal Supply Co. are
+being offered to all FIRST teams. The discounted purchase price of items from these sources
+would be used in the additional parts accounting calculations.
+• The cost of raw material obtained by a team + the cost of non-team labor expended to have the material
+processed further. Labor provided by team members and/or by a recognized team sponsor whose
+employees are members of the team does not have to be included. Note: it is in the best interests of the
+teams and FIRST to form relationships with as many organizations as possible. Teams are encouraged to
+be expansive in recruiting and including organizations in their team, as that exposes more people and
+organizations to FIRST. Recognizing supporting companies as sponsors of, and members in, the team is
+encouraged - even if the involvement of the sponsor is solely through the donation of fabrication labor.
+o Example: A team purchases steel bar stock for $10.00 and has it machined by a local machine
+shop. The machine shop is not considered a team sponsor, but donates two hours of expended
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 16 of 30
+labor anyway. The team must include the estimated normal cost of the labor as if it were paid to
+the machine shop, and add it to the $10.00.
+o Example: A team purchases steel bar stock for $10.00 and has it machined by a local machine
+shop that is a recognized sponsor of the team. The machinists are considered members of the
+team, so their labor costs do not apply. The total applicable cost for the part would be $10.00.
+• The cost of items purchased in bulk or large quantities may be prorated on the basis of the smallest
+commonly available unit that satisfies the need for the item.
+o Example: A team purchases a 4' x 4' sheet of aluminum, but only uses a piece 10” x 10” on their
+robot. The team identifies a source that sells aluminum sheet in 1’ x1’ pieces. The team may
+cost their part on the basis of a 1’ x 1’ piece, even though they cut the piece from a larger bulk
+purchase. They do not have to account for the entire 4’ x 4’ bulk purchase item.
+• Shipping costs of Non-Kit items are not counted.
+• COMPONENTS or MECHANISMS that teams purchase to replace kit parts that were not received from
+FIRST are not subject to the cost limitation (i.e., should not be charged against the $3,500 robot limit).
+
+5.3.5 Electrical System Rules
+
+<R51> The only legal main source of electrical energy on the robot is one of the two 12v DC non-spillable lead
+acid batteries provided in the Kit of Parts, or a spare of the same part number. The 7.2v “backup” battery is
+considered an integral part of the Robot Controller, and may not be used for any other purpose. The only 12V
+battery that may be used on your robot during competition (Friday and Saturday) is the Exide model EX18-
+12. (Additional EX18-12 batteries may be purchased through your local Exide supplier.) You may use other
+equivalent 12V batteries during Thursday practice rounds.
+
+<R52> The EX18-12 Battery may only be charged by a 6 Ampere rated Automatic Battery Charger between
+matches. When recharging Kit batteries, you may use the charger provided by FIRST or an automatic charger
+with an equivalent charging current rating.
+
+<R53> The 7.2v backup battery may be charged on or off the robot. When off the robot, the battery is to be
+charged with the provided 7.2V backup battery charger. When mounted on the robot, the backup battery may
+be charged from the EX18-12 primary battery by using the custom charging circuit available from Innovation
+First Inc. (note: IFI will provide the design for this circuit on the IFI website, however teams must obtain the
+parts for this circuit and assemble it themselves)
+
+<R54> The EX18-12 Battery, the Main 120 Amp Circuit
+Breaker, and the Circuit Breaker distribution panels must
+be connected as shown in the diagram. The EX18-12
+Battery must use the Anderson Connector. The
+connector must be attached with either the copper SLU-
+35 lugs provided in the Terminal Supply Bag or
+appropriate crimp-on lug connectors. The Battery
+terminals and the connecting lugs must be insulated with
+shrink tubing and/or electrical tape.
+You may use additional lengths of #6 red and #6 black wire to reach the panels as needed to make the above
+connections. The circuit breakers must be readily accessible for inspection and testing at each competition
+event.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 17 of 30
+
+<R55> All wiring and electrical devices must be electrically isolated from the robot frame; the robot frame may
+not be used to carry electrical current (this isolated ground arrangement is necessary due to polarity reversals
+that occur under certain operating conditions such as during motor direction reversals).
+
+<R56> All 12v electric power used on the robot must be obtained from the load terminals of the Circuit Breaker
+distribution panels. Each branch circuit must be protected using the appropriate value circuit breaker as
+specified in Section 5.3.9.1 “Circuit Breaker/Fusing Rules.”
+5.3.6 Custom Circuit Rules
+
+<R57> The use of additional electronics is intended to allow teams to construct custom circuits for their robots.
+The custom circuits may be used to indirectly affect the robot outputs by providing enhanced sensor feedback
+to the Robot Controller to allow it to more effectively decide how to control the robot. In addition to the
+required branch power circuit breaker, smaller value fuses may be incorporated in the custom circuits for
+additional protection. All outputs from the custom circuits must be connected to the analog inputs, digital
+I/O, TTL Serial Port, or Program Port on the Robot Controller.
+
+<R58> Inputs to custom circuits may be connected to the following sources:
+• Branch Circuit breaker outputs
+• Speed Controller or Relay module outputs
+• PWM, Relay or Digital Outputs on Robot Controller
+• Switches, Potentiometers, Accelerometers, Sensors, and other additional permitted electronics.
+
+<R59> Custom Circuits may not:
+• Interfere with the operation of other robots
+• Directly alter the power pathways between the battery, fuse blocks, speed controller/relay, and motor.
+Custom high impedance voltage monitoring or low impedance current monitoring circuitry connected to
+the robot’s electrical system is acceptable, because the effect on the robot outputs should be
+inconsequential.
+• Directly affect any output devices on the robot, such as by providing power directly to a motor, supplying
+a PWM signal to a speed controller or supplying a control signal to a relay module
+• Be used for wireless communication, such as sending or receiving a signal to and/or from the alliance
+station
+• Connect to the radio or tether ports on the Robot Controller
+5.3.7 Control System Rules
+
+<R60> You must operate your robot with the wireless, programmable Innovation First 2006 Robot Control
+System.
+
+<R61> The control system is provided to allow wireless control of the robots. The Operator Interface, Robot
+Controller, Speed Controllers, Relay Modules, Radio Modems, Batteries, Battery Charger, AC Adapter, and
+9-pin cables may not be tampered with, modified, or adjusted in any way, (tampering includes drilling,
+cutting, machining, gluing, rewiring, etc.) with the following exceptions:
+• The dip switches on the Operator Interface may be set as appropriate.
+• The user programmable code in the Robot Controller may be customized.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 18 of 30
+• The Speed Controllers may be calibrated as described in owner's manuals.
+• The fuse on the Spike relay for the Air Compressor may be replaced with a 20 Amp Snap-Action circuit
+breaker.
+
+<R62> Teams are responsible for any software bugs introduced into the Robot Controller's control program when
+using a custom program or for any unwanted or unanticipated robot behavior when using additional
+electronics.
+
+<R63> The Robot Controller must be positioned within the robot so that its indicator lights may be seen during
+inspection and during operation in a match. This will greatly facilitate analysis in case of problems.
+
+<R64> All circuit breakers must be accessible for inspection at each FIRST Robotics Competition event.
+
+<R65> The team number settings on the Operator Interface must be set to the team number assigned to the team
+by FIRST, then the Robot Controller must be tethered to the Operator Interface to transfer the Team Number
+setting to the Robot Controller. This must be done only once after setting the Operator Interface.
+
+<R66> Do not connect 12Vdc power, Relay Module outputs, Speed Controller outputs, or PWM outputs to the
+analog or digital I/O on the Robot Controller.
+
+<R67> You must connect all outputs from the sensors and additional electronics circuits used on the robot
+directly to the analog or digital I/O on the Robot Controller. Sensors may not be wired so that they directly
+control other devices. All loads must be controlled by PWM signals sent by the Robot Controller to relays or
+speed controllers. It is acceptable to wire switches used as sensors in series or parallel with each other.
+
+<R68> The 7.2V Robot Control backup battery must be connected to the Controller as described in the
+Controller’s manual. The 7.2v battery should be charged to at least 7.0v before entering a match. As a
+replacement for the FIRST supplied battery, any other 7.2V NiCad battery pack may be used.
+
+<R69> A remote reset and remote programming switch may be wired to the Robot Controller’s RESET/PROG
+header. Any switch may be used. See the Robot Controller Reference Guide for wiring information.
+
+<R70> Digital outputs of the Robot Controller may be connected directly to brake/coast headers on the speed
+controllers to permits programmable control of this speed controller function. The brake/coast header on the
+speed controller may NOT be connected to any other circuit or input.
+.
+
+<R71> Unaltered software modules developed during prior competitions may not be directly re-used. Just as
+designs for hardware COMPONENTS may be reused from one year to the next, software algorithms and
+designs may be reused. However, the specific lines of code must be customized for each robot each year.
+
+5.3.8 Operator Interface Rules
+
+<R72> The team number settings on the Operator Interface must be set to the team number assigned to the team
+by FIRST.
+
+<R73> The Operator Interface Console designed by your team must fit on the 69” wide by 12” deep shelf in the
+Alliance Station.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 19 of 30
+
+<R74> Teams are permitted to connect a portable computing device (Laptop computer, PDAs, etc.) to the RS232
+Output of the Dashboard Port of the Operator Interface for the purpose of displaying feedback from the robot
+while competing in Competition matches. Please note that AC power will not be available at the playing
+field so these devices will have to run on internal batteries.
+
+<R75> The IFI Operator Interface (OI) must be positioned within the operator console so that its indicator lights
+may be seen during inspection and during operation in a match. This will greatly facilitate analysis in case of
+problems.
+
+<R76> Teams may not use Innovation First Operator Interfaces from previous years’ competitions.
+
+<R77> No external equipment may be connected to the Tether Port of the Operator Interface during a match.
+
+<R78> All equipment connected to the Joystick Ports of the IFI Operator Interface must be powered solely
+through the power available through the port. External power sources of any type are not permitted on any
+equipment connected to the Joystick Ports. Portable computing devices may not be connected to Joystick
+input ports on the Operator Interface. Power-passive devices (e.g. joysticks that draw their power solely
+through the IFI Operator Interface joystick port) are permitted.
+
+<R79> The Competition Cable at the Alliance Station must connect directly to the Competition Port on the
+Operator Interface. No intermediate connectors, cables, or “pigtails” are permitted.
+5.3.9 Wiring Rules
+
+<R80> Electrical devices may only be wired in accordance with Section 5.3 Robot Rules. For your convenience,
+please refer to the 2006 Robot Power Distribution Diagram.
+
+<R81> All wires distributing power with a constant polarity (i.e., except for Relay Module, Speed Controller, or
+sensor outputs) must be color-coded as follows:
+• Use Red, White, or Brown wire for +12 Vdc and +5 Vdc connections.
+• Use Black or Blue wire for Common (-) connections.
+
+<R82> You must use 12 AWG or larger diameter wire for all circuits protected by a 40A Circuit Breaker.
+
+<R83> You must use 14 AWG or larger diameter wire for all circuits protected by a 30A Circuit Breaker.
+
+<R84> You must use 18 AWG or larger diameter wire for all circuits protected by a 20A Circuit Breaker.
+
+<R85> You must use 24 AWG or larger diameter wire for connecting sensors such as: switches, potentiometers,
+accelerometers, and other sensors. You must use 24 AWG or larger diameter wire for connecting a Vision
+System to Robot Controller inputs, and for extending the PWM cables, for the small muffin fans, or for
+wiring LEDs. It is acceptable to use ribbon cable smaller than 24 AWG to connect to the 9 pin ports on the
+Robot Controller.
+
+<R86> No more than one motor may be connected to each Speed Controller.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 20 of 30
+
+<R87> CIM motors and Fisher-Price motors must be connected to Speed Controllers. They may not be
+connected to Relay Modules.
+5.3.9.1 Circuit Breaker / Fusing Rules
+
+<R88> You must use the auto resetting Snap Action circuit breakers provided in the Kit Of Parts to protect all the
+active Circuit Breaker/ Power Distribution Panel branch circuits from overload.
+
+<R89> You must protect the Robot Controller power feed with a 20A Circuit Breaker. You may not connect any
+other electrical load to this breaker.
+
+<R90> You must protect the Air Compressor spike relay power feed with a
+20A Circuit Breaker. You may not connect any other electrical load to this
+breaker.
+
+<R91> You must protect the power feed to Custom Circuits and Additional
+Electronics with a 20A Circuit Breaker.
+
+<R92> Speed Controllers may be protected by 20A, 30A, or 40A Circuit Breakers. Speed Controllers may
+power motors or devices of any size.
+
+<R93> SPIKE Relay Modules must be protected with a 20A Circuit Breaker. Multiple devices may be connected
+to Relay Modules if desired (but only one motor may be connected to each Relay Module).
+
+5.3.10 Pneumatic System Rules
+Please refer to the Pneumatics Manual for additional information about using pneumatics on your robot.
+
+<R94> Pneumatic components supplied in the
+Kit compressor, regulators, pressure
+switches, cylinders, valves, fittings, tubing,
+etc.) may not be modified except as
+follows:
+• The tubing may be cut.
+• The wiring for the valves and pressure
+switch may be modified as necessary to
+interface with the rest of the control
+system.
+• Mounting and connecting pneumatics
+components using the pre-existing
+threads, mounting brackets, etc., is not
+considered a modification of the
+components. Removing the pin from
+the rear of an air cylinder is allowed as
+long as the cylinder itself is not
+modified.
+• Do not, for example, file, machine, or abrasively remove any part of an air cylinder. Consider pneumatic
+components sacred. They must remain in “out of the shipping box” condition.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 21 of 30
+
+<R95> The compressor may be mounted on the robot, or if teams prefer, they may leave it off their robot, and
+pre-charge and store compressed air in the storage tanks prior to bringing their robot onto the playing field. If
+you elect to use pneumatics on your robot, your pneumatic system must contain as a minimum the following
+components, connected in accordance with this section.
+• Pressure gauges to display the “working” and “stored” air pressure.
+• An accessible pressure vent valve to manually relieve the stored pressure
+
+<R96> Teams are not allowed to remove or adjust the 125-psi set relief valve attached to the compressor.
+You may only use the Thomas Industries compressor and Clippard Instruments air storage tanks provided in
+the Kit to compress and store air on the robot. You may not use extraneous lengths of pneumatic tubing to
+increase the storage capacity of the air storage system.
+
+<R97> The Nason pressure switch must be connected to the output end of one of the Clippard tanks to sense the
+tank’s pressure. The two wires from the pressure switch must be connected directly to a digital input and
+ground terminal on the Robot Controller, and the controller must be programmed to sense the state of the
+switch and operate the spike relay that powers the compressor. The Parker Pressure Vent valve must be
+connected to a Clippard tank such that, when manually operated, it will vent to the atmosphere to relieve any
+stored pressure. The valve must be placed on the robot so that it is visible and accessible.
+
+<R98> “Working” air pressure on the robot must be no greater than 60psi. All working air must come from the
+Norgen adjustable pressure regulator, and all other pneumatic components must be downstream from this
+regulator. A pressure gauge must be placed adjacent to the pressure regulator and display the downstream
+pressure.
+
+<R99> There is no limit to the number of solenoid valves, air cylinders, pressure regulators, and connecting
+fittings you may use on your robot. They must, however, be “off the shelf” pneumatic devices rated by their
+manufacturers for pressure of at least 125psi. Besides the “free” pneumatic components listed on the
+Pneumatic Components Order form, you may purchase additional air cylinders or rotary actuators, however,
+they must be identical to those listed on the Pneumatic Components Order form (i.e. same part numbers), and
+obtained from a Bimba or Parker Hannifan distributor.
+
+<R100> The following pneumatics items may be added to your robot:
+• You may use the 2005 Kit pneumatic cylinders, solenoid valves, and pneumatic tubing in addition to
+those items in the 2006 Kit, but you must account for their costs as explained in the Cost Limits and
+Accounting section.
+• You may use a pressure transducer as long as it is rated to the operating air pressure at its mounting point
+in the pneumatic system.
+• For the purposes of the FIRST competition, a device that creates a vacuum is not considered to be a
+pneumatic device and is allowed. This includes, but is not limited to, Venturi-type vacuum generators and
+off-the-shelf vacuum devices (as long as they are powered by one of the Kit-of-Parts motors).
+• For the purposes of the FIRST competition, closed-loop pneumatic (gas) shocks are not considered
+pneumatic devices, and are permitted additions to the robot.
+
+5.3.11 Non-Functional Decoration Rules
+Teams may add “Non-functional” decorations to robots under the following conditions:
+
+<R101> Decorations must be on the robot at the time of final inspection, and must not cause the robot weight or
+size to exceed the Rule requirements.
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 22 of 30
+
+<R102> Decorations must not affect the outcome of the match, and must be in the spirit of “Gracious
+Professionalism.”
+
+<R103> Any decorations that involve broadcasting a signal to/from the robot, such as remote cameras, must be
+cleared with FIRST Engineering prior to use. Teams may not use 900 MHz camera systems.
+
+<R104> Decorations may draw power from the 12v electrical system as long as they are powered via a dedicated
+20A or 30A circuit breaker and do not affect the operation of other control system components.
+
+5.3.12 Robot Inspection Rules
+FIRST will post a copy of the Official Robot Inspection Sheet in approximately the first week of February. Use
+this sheet as a guide to pre-inspect your robot before it ships. Note that robot inspectors will be looking for sharp
+corners and edges that could cause injury. Please try to mitigate all sharp corners.
+
+<R105> All robots must pass inspection for compliance with the Rules herein before being allowed to compete
+in the Qualification Rounds. At the time of inspection, teams must present a list of all Non-Kit part items and
+costs used in the construction of their robot to the inspector.
+
+<R106> At Inspection, noncompliance with any robot construction Rule may result in disqualification of the
+machine at a FIRST competition event. The team must bring the robot into compliance before they will be
+allowed to compete in the Qualification Rounds. At the discretion of the lead Inspector, the robot may be
+allowed to participate in practice rounds before passing inspection.
+
+<R107> If a team makes a modification to improve performance or reliability after its robot has passed
+inspection, that team must have the robot re-inspected. If you observe that another team’s robot may be in
+violation of the robot rules, please approach FIRST officials to review the matter in question. This is an area
+where “Gracious Professionalism” is very important.
+
+<R108> At the time of robot inspection, you must present all mechanisms (including all components of each
+mechanism) and configurations that you will use on the robot during the entire competition event. It is
+acceptable, however, for a robot to play matches with a subset of the mechanisms that were present during
+inspection. Only mechanisms that were present during the inspection may be added, removed or reconfigured
+between matches. If subsets of mechanisms are changed between matches, the reconfigured robot must still
+meet all inspection criteria.
+
+<R109> If a robot is rejected because of a safety issue or concern related to the team’s method of storing energy,
+the concerned mechanisms must be disabled or removed from the robot before it may compete in a match.
+The team bears the burden of proof that such a rejection is not valid. Teams should be prepared to provide
+justifiable test data or calculations during inspection to support their design.
+
+<R110> FIRST Officials may randomly re-inspect robots participating in competition rounds to assure
+compliance with the Rules
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 23 of 30
+
+5.4 KIT OF PARTS
+FIRST provides a Kit of Parts to each team. Only the exact parts provided in the Kit (or their exact replacement)
+are considered as Kit Parts. Some Kit Parts may legally be used in additional quantities. Additional quantities of
+these parts are considered to be “Additional Parts” and not “Kit Parts”.
+
+5.4.1 2006 Kit Changes
+Some of the exciting and important changes found in the 2006 Kit Items include:
+• Labview8 and Easy C software supplied for vision system software development and programming.
+• Removed two of the CIM motors and replaced them with two larger CIM “mini-bike” motors.
+• 3 New Sensors for 2006 - Gear Tooth Sensor, Dual Axis Accelerometer, and Angular (Yaw) Rate Gyro.
+Each provides critical positioning and attitude sensing data for precision robot control.
+• Enhanced CMUcam2 Vision System with new servo driven Pan/Tilt Brackets adds the capability for
+vision-based tracking of illuminated targets - essential to achieving competitive performance skills in this
+year’s game.
+• New igus Linear Bearing and Guide System kit provides robust lightweight components useful for
+designing efficient mechanical control systems.
+• New Allen-Bradley Infrared Transmitted Beam Sensor for any applications where broken beam detection
+is a useful and important requirement.
+• Returned the MAXI and the ATC fuse panels to the kit in place of the single Circuit Breaker/Power
+Distribution panel.
+• Spiraled Pneumatic tubing from Freelin-Wade.
+5.4.2 Kit Of Parts Contents
+The FIRST 2006 Kit of Parts is provided in multiple containers. They consist of; 2 Large plastic Totes (blue and
+red) of robot parts and construction materials shipped from FIRST, cartons containing 1-KitBot box, 1
+Electronics Kit, 1 Drive Kit, and 1 Motor Kit shipped from Innovation First, Inc and 2 items.
+Use the tables below to inventory your Kit of Parts. The inventory may take about 45 minutes, but should be
+completed within 48 hours of receiving the kit in order to determine that all items are present. Any irregularities
+must be reported by 11:59 pm (EST) on Wednesday, January 11, 2006.
+The CHECK column should be marked when the item and quantities are correct. All bags are labeled. If you are
+not sure what a particular part should look like, match the Pix Number to the numbered photograph for
+clarification. (N/A = picture not available). Kit photos are attached to the checklist supplied with the kits and may
+be downloaded from the FIRST web site at http://www.usfirst.org/robotics/doc_updt.htm
+5.4.2.1 The following part items will be found inside the Blue container
+BLUE CONTAINER ITEM 1
+BATTERY BOX EXIDE Contains 2 ea.
+Ý Pix Part Name Description Part Number Qty
+K11 Battery, Exide 12V, 18AH, Deep Cycle EX18-12 2
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 24 of 30
+BLUE CONTAINER ITEM 2
+COUPLER BAG MMH
+Ý Pix Part Name Description Part Number Qty
+K21 Wheel Hub, Plastic Hub for Skyway wheels DEKA 4
+K22 Coupler, Nippon-Denso Motor Injection molded DEKA 2
+BLUE CONTAINER ITEM 3
+ELECTRICAL BAG MMH
+Ý Pix Part Name Description Part Number Qty
+K31 Connector, Quick Disconnect #6 Wire Pair, 12” 6331G1 4
+K32 Battery Connector Safety Plug White (45) small plastic AndyMark, Inc. 8
+K33 Fan, Muffin (Tiny) 12 Vdc 412 6
+K34 Fan, Muffin, (Large) 12 Vdc 4212/19H-490 or
+4112N/12GL
+2
+K35 Latex Tubing ¼” ID, 3/8” OD, 5 feet 5234k44 2
+BLUE CONTAINER ITEM 4
+FREELIN WADE
+Ý Pix Part Name Description Part Number Qty
+K41 Spiral Tubing Coil 2MC-151-5P-FW 1
+K42 Tubing, ¼” 100 Ft length 1J-151-07P-FW 1
+K43 Catalog, Freelin-Wade FWRGSI 1
+BLUE CONTAINER ITEM 5
+LOOSE MATERIALS
+Ý Pix Part Name Description Part Number Qty
+K51 Coil, Wire, Black 10’ , # 6 AWG, Black Delphi Conn. Systems 1
+K51 Coil, Wire, Red 10’ , # 6 AWG, Red Delphi Conn. Systems 1
+K52 Battery Charger, Automatic 6 Amp, Midtronics CXC-2005 1
+K54 Ball, 7” Foam Basketball Sport balls Poof-slinky.com 1
+K55 Motor, Fisher-Price, w/19T #7
+Gearbox
+12 Vdc 00968-9003 or 00968-
+9012 supplied
+2
+K56 Wheel, wheelchair, 8” Precision Hub w/o brg. WHL70C 4
+BLUE CONTAINER ITEM 6
+MAGAZINE BAG May be loose in Tote
+Ý Pix Part Name Description Part Number Qty
+N/A Magazine, Nuts and Volts 1
+N/A Magazine, Servo 1
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 25 of 30
+BLUE CONTAINER ITEM 7
+TARGET BAG
+Ý Pix Part Name Description Part Number Qty
+K71 Cold Cathode Dual Kit 12” green (2 bulbs/box) Oznium 4
+K72 Transformer Oznium 4
+K73 Target Lens, HDPE Panel 16” x 8”(nom) x 1/8” Plastic Supply 1
+BLUE CONTAINER ITEM 8
+TERMINAL SUPPLY BAG
+Ý Pix Part Name Description Part Number Qty
+K81 Circuit Breaker, 120A, Buss 120A, Automotive style CB3-SM-120
+185-120-F01-1(old)
+1
+K82 Nylon Ring Terminal AWG 22-18 A-532-06 10
+K83 Nylon Ring Terminal AWG 16-14 B-523-06 6
+K84 Maxi Style Fuse Block, 4 Position Gold plated JEF-531D 1
+K85 Terminal Lug, SLU-35 6-14ga solderless lug SLU-35 8
+K86 ATC Fuse Panel, 12 Position 15600-12-21 1
+K87 ATC Fuse Panel, 6 Position 15600-06-21 1
+K88 Nylon Ring Terminal #6ga- ¼” stud E760-14 4
+K89 Nylon Ring Terminal #6ga- #10 stud E760-10 6
+K810 Nylon Ring Terminal #6ga- 3/8” stud E757-38 6
+K811 Female Quick Disconnect, Nylon 12-10ga, .250d C-572 56
+K812 Nylon Ring Terminal 12-10ga Ring Lugs C-536-06 20
+K813 Fem Quick Disconnect, Nylon 22-18ga, .250d AA-8140 8
+K814 Fem Quick Disconnect, Nylon 10-12ga, .250d C-850 14
+K815 Male Quick Disconnect, Nylon 16-14ga, .250d MCT-850 14
+K816 Fem Quick Disconnect, insulated 16-14ga, .250d B-850 4
+K817 Stud w/ Nut 3/8” stud terminal block TB-1 1
+K818 Male Quick Disconnect, Nylon 12-10ga, .250d MCT-C-850 14
+5.4.2.2 The following part items will be found inside the Red container
+RED CONTAINER ITEM 1
+IGUS BAG
+Ý Pix Part Name Description Part Number Qty
+KR11 Igubal Pillow Block- 5/8” 2 in separate bag in Tote KSTI-10 4
+KR12 Iglide Flange Bearing-5/8” JFI-1012-12 4
+IGUS Product Guide 1
+KR14 Plastic Linear Bearing 5/8” RJI-01-10 2
+KR15 5/8” Aluminum Shafting 18” Hard Anodized AWI-10 1
+KR15 3/8” Aluminum Shafting 18” Hard Anodized AWI-06 1
+KR17 Iglide Sleeve Bearing-5/8” JSI-1012-12 4
+KR18 2-Hole Flange Bearing- 3/8” EFOI-06 2
+KR19 Clevis Joint w/pin & Clip 3/8” GERIK-06 2
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 26 of 30
+KR110 5/8” Rod end Bearing EBRI-10R 2
+KR111 3/8” Rod end Bearing EBRI-06R 2
+KR112 EZ Chain 18” Long Z06-16-018-0 1
+KR113 Mounting Bracket – EZ Chain 1 Set/ 2 Pieces 060-16-12PZ 1
+KR114 Low Profile Linear Guide 27mm
+wide
+2 pieces, 18” Long,
+4 carriages
+NK01-27-2-457 2
+RED CONTAINER ITEM 2
+LOOSE MATERIALS
+Ý Pix Part Name Description Part Number Qty
+KR21 Motor, Globe, w/drive assy 12 Vdc 409A587 2
+KR22 Volume Tank, Clippard 2” bore by 6” long AVT-32-16 2
+KR23 Motor, CIM Keyed output shaft FR801-001 2
+KR24 Motor, Nippon-Denso Window,
+RH
+262100-3030/ RH
+1
+KR25 Motor, Nippon-Denso Window,
+LH
+262100-3040/ LH
+1
+KR26 Motor, Sliding Door, Van Bosch 16636815 1
+KR27 Joystick, Analog AVB Top Shot Analog GC-1000FR 2
+KR28 Rod Clevis Kit LO7130 0400 1
+KR29 Pivot Bracket Set (R/L) LO7131 0300 1
+KR210 Lead Screw w/ Nut BZ6050 x 12” 1
+KR211 Motor, Mabuchi RS-545SH-2485 1
+KR212 Cylinder 1.5” bore x 8” stroke; rear
+pivot
+1.5DPSR8.00 1
+KR213 Compressor, Thomas 405ADC38/12 1
+KR214 US Patent + Trademark Office DVD 1
+KR215 80/20 CD 1
+KR71 MSC Catalogue – CDROM & Starrett table 1
+KR216 FedEx Envelope 1
+RED CONTAINER ITEM 3
+KR30 PNEUMATICS – SMC Note: 24V solenoid is an extra item
+Ý Pix Part Name Description Part Number Qty
+KR31 Flow Control NAS2201F-N01-07S 6
+KR32 Fitting, Straight ¼” tube, straight KQH07-34S 10
+KR33 Fitting, 90 Elbow ¼” tube, 90o elbow KQ2L07-34S 5
+KR34 Solenoid Valve, Double w/ Lead
+Wire Assy, Pilot Valve & gaskets
+12VDC pilot valves
+hardwired to assy.
+SY3240-6HZ-X70 2
+KR314 Solenoid Valve, Double w/ Pilot
+valves 24VDC
+24VDC, no lead wires SY3240-5LOZ
+(Spare for solenoid)
+1
+KR37 Sub Base, 1/8” ports SY3000-27-1T 2
+KR38 Fitting, 90 Elbow 90o Elbow ¼” tube KQLO7-35S 10
+KR39 Fitting, Tee-Union Tee union –1/4” tube KQTO7-00 5
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 27 of 30
+KR312 Fitting, 90 Elbow Male, 90o Elbow,
+5/32” tube- 1/8 NPT
+KQ2L03-34S 1
+KR313 Fitting, Straight Male Conn. 5/32” tube
+–1/8 NPT
+KQ2H03-34S 1
+RED CONTAINER ITEM 4
+PNEUMATICS BAG #1
+Ý Pix Part Name Description Part Number Qty
+KR41 Teflon Tape ¼” x 520’ 1
+KR42 Pressure Gauges, Wika 1/8” NPT, 0-160 psi 9690242 2
+KR43 Solenoid, Festo, Single valve kit Single solenoid valve VPLE18-M5H-4/2-1/4 2
+KR44 Vibration isolators, Lord SMB003-0100-2 3
+KR45 Secondary Regulator & Bracket,
+Monnier
+Regulator & Mtg Kit 101-3002-1 1
+KR46 Pressure Switch, Nason Open; 115, Close;
+95psi
+SM-2B-115R 1
+** KR47 Main Regulator, Norgren, 60psi 60 psi Max output R07-153-RNEAJ060 1
+KR48 Regulator Mounting Kit Bracket & Nut 18-025-003 1
+KR49 Relief Valve, Norgren, 120 psi 120 psi Relief Valve 16-004-074 1
+KR410 Gauge, Norgren Gauge, 0-160 psi 18-013-212 1
+KR411 Parker Brass Bag 1
+** Verify part number is R07-153-RNEAJ060
+RED CONTAINER ITEM 5
+PNEUMATICS #2 BAG
+Ý Pix Part Name Description Part Number Qty
+KR51 Valve, BoschRexroth Valve, 12V 5728400410 1
+KR52 Connector kit, BoschRexroth Connector, & hdwre H894101-02202 1
+KR53 Nut, BoschRexroth Gray Nut – ¼” tubing H893071-4904 3
+RED CONTAINER ITEM 6
+SENSOR BAG
+Ý Pix Part Name Description Part Number Qty
+KR61 Receiver Combine Rx & Source 42SMR-7100 1
+KR62 Source Rockwell Automation 42SML-7100 1
+KR63 Power Distribution Block Rockwell Automation 1492-PDM 3141 1
+KR64 Micro switch Sager Electronics V7-2B17D8-048 2
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 28 of 30
+5.4.2.3 The following part items are shipped from Innovation First
+INNOVATION FIRST, INC. ITEM 1
+FIRST-2006 ELECTRONICS KIT E-KIT-2006
+Ý Pix Part Name Description Part Number Qty
+IF16 Robot Controller Unit ROBOT-RC FR-2006-RC 1
+IF17 Operator Interface Unit ROBOT-OI FR-2006-OI 1
+IF13 Radio Modem – Robot Controller RS-422, 9 pin, M,
+w/ Rubber Antenna
+ROBOT-RADIO-RC 1
+IF14 Radio Modem – Op. Interface RS-422, 9 pin, M, Metal
+Antenna
+ROBOT-RADIO-OI 1
+IF110 Speed Controller, Victor 884 VICTOR-884-12-12 FR-VIC884 4
+IF18 Cable, PWM/Relay Hitec/JR –36” CABLE-PWM-36 8
+IF19 Cable, PWM/Relay – Y Hitec/JR –24” CABLE-PWM-Y 2
+IF119 Adapter, 7.2V Battery Charger Old Connector to
+Spade-Lock
+ADAPT-BATTERY-
+7.2
+1
+IF11 Cable, 9 pin, M/F, Blk, 6” DB9 M/F 6’, Shielded CABLE-DB9-6FT-MF 3
+IF111 Cable, 9-Pin, 6’, Tether DB9 Female/Female CABLE-DB9-6FT-FF 1
+IF117 Battery, 7.2V, NiCad, Backup 7.2V NiCad BATTERY-BACK-7.2 1
+IF124 Wall Adapter – OI AC/DC Adapter 9VDC AC-ADAPTOR-OI 1
+IF12 Servo 42 oz/in peak torque
+0.19
+SERVO-HS-322HD 2
+IF120 Circuit Breaker Bag 20Ax4, 30Ax2, 40Ax4 CB-20A, CB-30A, CB-
+40A
+1
+IF123 MPLAB CBOT Compiler MicroChip Software C-BOT-COMPILER 1
+IF128 LabView Software Student Edition National Instruments 1
+IF15 Spike Relay 12v, 20A SPIKE-RELAY-H 4
+IF115 Camera Pan/Tilt Bracket Kit 3 Brackets plus h/w FRC-PANTILT-01 1
+IF122 LED Cluster Robot LED, Red/Blue ROBOT-LED-RB 1
+IF112 Camera Lens Camera Lens CAMERA-CMU-2 1
+IF113 CMU CAM Printed Circuit Board CMU-CAM-2 PCB CAMERA-CMU-2 1
+IF114 TTL-232 TTL–RS232 Converter CAMERA-CMU-2 1
+** IF125 Sensor Strip DAA, YRG, GTSx2 SENSOR-STRIP-01 1
+N/A Gear-Tooth Sensor Hardware Not Used See Motor kit item 3 1
+IF127 Picasa Software Ver 2.0 on CD for Google Camera 1
+** Note: See http://www.ifirobotics.com/0-index.htm BEFORE wiring the YRG sensor.
+INNOVATION FIRST, INC. ITEM 2
+FIRST 2005 KITBOT FRC-KITBOT-001
+Ý Pix Part Name Description Part Number Qty
+IF31 Transmission Support Frame Metal plate, 30” x 5” KITBOT-TRAN-TOP 1
+IF32 Bumper, C-Channel Metal C- channel, 37” KITBOT-BUMPER 2
+IF33 Main Chassis Rail Rail KIT-BOT- RAIL 4
+IF34 End Cap U-shaped C-channel KITBOT-ENDCAP 4
+IF35 Mount Plate, Transmission Plate, 9’ x 2.75” KITBOT-TRAN-MNT 2
+IF36 Chassis Stiffener Angle Bracket, 6” KITBOT-STIFFENER 4
+IF37 Hardware Kit Misc Hardware KITBOT-2005-HDWR 1
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 29 of 30
+INNOVATION FIRST, INC. ITEM 3
+MOTOR KIT FRC-KIT-MOTOR-001
+Ý Pix Part Name Description Part Number Qty
+IF41 Motor (Large) Motor FP801-005 2
+IF21 Bearing, Timken Skyway Wheel Bearing S3KDD 8
+N/A Screw Kit (contains 4 each -
+8/32” flat head screws)
+Hardware for mounting
+Gear tooth sensor.
+JSU-229 1
+INNOVATION FIRST, INC. ITEM 4 BOX UPC: 356
+• - Reference: 2005 FIRST Robotics Competition Kit Transmission Manual
+5.4.2.4 Kickoff Supplied Materials
+KICKOFF MATERIALS
+Ý Pix Part Name Description Part Number Qty
+N/A Google Digital Camera Shipped to Kick-off site 1
+IF118 Battery Charger for 7.2V Battery 7.2V NiCad Charger CHARGER-7.2 1
+5.4.3 Replacement Parts Requests
+After receiving your Kit of Parts (KOP), FIRST will be using a similar system as implemented last year for teams
+to submit a "Replacement Parts Request" within a short period of time after the kickoff. Any parts requested will
+be sent to teams via this online request system only. The Replacement Parts Request link will be posted on the
+Team Information Management System (TIMS) at http://www.usfirst.org/robotics/res_art2.htm after the Kickoff
+event.
+To begin the process of submitting a Replacement Parts Request (after the kickoff), teams will:
+DRIVE KIT FRC-KIT-DRIVE-
+001
+Ý Pix Part Name Description Part Number * Qty
+IF66 Output Sprocket Output Sprocket FRC-2005-112-009 2
+IF65 Wheel Sprocket Wheel Sprocket FRC-2005-120-01 2
+IF614 Hardware Pack Hardware Pack Hardware-TranPk-01 1
+N/A Hardware Pack Hardware Pack Hardware-TranPk-02 1
+IF64 Cover Cover FRC-2005-112-002 2
+IF613 Hex Cluster Shaft Hex Cluster Shaft FRC-2005-112-003 2
+IF612 Hex Output Shaft Hex Output Shaft FRC-2005-112-004 2
+IF69 Hex Shaft Cluster Gear Hex Shaft Cluster Gear FRC-2005-112-005 2
+IF610 Small Hex shaft Gear Small Hex shaft Gear FRC-2005-112-006 2
+IF68 CIM Motor Input Gear CIM Motor Input Gear FRC-2005-111-007 4
+IF611 Large Hex Shaft Output Gear Large Hex Shaft Output
+Gear
+FRC-2005-112-008 2
+IF64 Transmission Housing Transmission Housing FRC-2005-112-001 2
+IF63 Master Link, Chain # 35 Link ROBOT-MLINK-35 1
+IF62 Chain, 10’ Browning # 35 ROBOT-CHAIN-35-10 1
+IF22 Bearing, Transmission- 39KDD 39KDD 6
+IF23 Bearing, Transmission-9103KDD 9103KDD 2
+© FIRST 2006 FIRST Robotics Competition Manual, Section 5 – The Robot, Rev A Page 30 of 30
+• Log into TIMS with your Logon ID and Password;
+• Click on the "Submit a Replacement Parts Request" link on right side of the Team
+Summary page;
+• Follow TIMS instructions to complete a Replacement Parts Request
+**IMPORTANT**
+Please remember there is a "one time only" chance for submitting your Replacement Parts Request. Please be
+very careful to make sure your request is both accurate and complete prior to pressing the "Submit Request"
+button. Once the request is submitted there can be no changes to it. Please note that the system will not allow
+teams to request a quantity of parts higher than the number originally sent with the kit. This system is also not to
+be used to order additional and or purchased parts.
+Replacement Parts Requests will be processed daily and items will be shipped to teams during the next open
+shipping window. Please remember that all requests must be placed by 11:59 pm (Eastern Time) on
+Wednesday, January 11, 2006.
+5.4.4 Innovation First Kit of Parts:
+To submit a Replacement Parts Request for your IFI supplied kit items or for product support (to obtain a Return
+Merchandise Authorization Number (RMA#) prior to the return of warranted IFI parts, please contact Innovation
+First at 903-453-0801 or visit the Innovation First web site at http://www.innovationfirst.com/firstrobotics/. Please
+do not contact FIRST for replacements or repairs of these items.
+5.4.5 Obtaining Replacement or Spare Parts:
+We will have a listing of the LIMITED set of parts that will be available at events posted on the FIRST web site
+no later than January 17, 2006. If your robot is using parts not included on this list, and there is a reasonable
+possibility the part could be damaged or broken during competition, it is STRONGLY RECOMMENDED that you
+obtain and bring the appropriate SPARE PARTS to events.
+Innovation First Inc is also hosting the FIRST Store on behalf of FIRST on the Innovation First web site. Its
+purpose is to assist teams with the ability to procure excess Kit of Parts items from FIRST. Only FIRST teams
+will be authorized to purchase the listed parts. FIRST will establish pricing for all parts, which will be inclusive of
+handling charges, but will be exclusive of shipping charges.
+Additional parts and spare Innovation First parts are available and may be purchased by visiting the IFI Store at
+http://www.ifirobotics.com/0-index.htm. The Innovation First, Inc. contact for FIRST Store matters is Tom
+Watson at 903-453-0800 : extension 204. Innovation First Inc. (IFIrobotics) "Kit of Parts" spares or replacements
+5.4.6 FIRST Loan policy for Control System Components:
+Teams are responsible for all Innovation First products required at events. If at any event a team needs to borrow
+any part of a Control System, the team must provide a Credit Card number to ensure proper return of the items
+immediately upon completion of the event.
+If the part is not returned at the end of the event, FIRST retains the right to bill the provided credit card number
+for the borrowed items.
+All “loan” items will be available on a first-come, first-served basis.

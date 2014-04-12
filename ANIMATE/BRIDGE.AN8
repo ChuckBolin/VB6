@@ -1,0 +1,861 @@
+header {
+  version { "0.9" }
+  build { "2005.08.29" }
+}
+environment {
+  grid { 1 10 50 50 }
+  framerate { 24 }
+}
+object { "CASTLE"
+  material { "STALLS light gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "STALLS light 1"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 89 68 }
+      ambiant {
+        rgb { 200 89 68 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 89 68 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "STALLS light st"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 170 89 58 }
+      ambiant {
+        rgb { 170 89 58 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 170 89 58 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "SERVES light gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "SERVES light st"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 89 68 }
+      ambiant {
+        rgb { 200 89 68 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 89 68 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "PRIOR light gra"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "PRIOR medium gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 0 139 0 }
+      ambiant {
+        rgb { 0 139 0 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 0 139 0 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "PRIOR medium mo"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 112 81 }
+      ambiant {
+        rgb { 139 112 81 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 112 81 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "OWTOWR light gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "OWTOWR light st"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 89 68 }
+      ambiant {
+        rgb { 200 89 68 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 89 68 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "OCURT light gra"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "MAINTWR light g"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "MAINTWR light2"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 58 159 58 }
+      ambiant {
+        rgb { 58 159 58 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 58 159 58 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "MAINTWR light3"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 68 159 58 }
+      ambiant {
+        rgb { 68 159 58 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 68 159 58 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "MAINTWR light s"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 89 68 }
+      ambiant {
+        rgb { 200 89 68 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 89 68 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "KINGS light g4"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "KINGS light str"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 220 68 48 }
+      ambiant {
+        rgb { 220 68 48 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 220 68 48 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "KINGS light gra"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 119 119 179 }
+      ambiant {
+        rgb { 119 119 179 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 119 119 179 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "INTOWR light gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "INTOWR light st"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 89 68 }
+      ambiant {
+        rgb { 200 89 68 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 89 68 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "INCURT light gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "HALL light mode"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 179 130 89 }
+      ambiant {
+        rgb { 179 130 89 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 179 130 89 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "HALL moderate r"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 234 89 89 }
+      ambiant {
+        rgb { 234 89 89 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 234 89 89 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "HALL light gray"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "HALL light st5"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 170 89 58 }
+      ambiant {
+        rgb { 170 89 58 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 170 89 58 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "HALL light stro"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 89 68 }
+      ambiant {
+        rgb { 200 89 68 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 89 68 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GRND.1 light 6"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GRND.1 medium g"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 109 89 }
+      ambiant {
+        rgb { 139 109 89 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 109 89 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GRND.1 light gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 119 119 170 }
+      ambiant {
+        rgb { 119 119 170 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 119 119 170 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GRND.1 light 7"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 58 159 58 }
+      ambiant {
+        rgb { 58 159 58 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 58 159 58 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GRND.1 light 8"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 68 159 58 }
+      ambiant {
+        rgb { 68 159 58 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 68 159 58 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GRND.1 light st"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 58 58 200 }
+      ambiant {
+        rgb { 58 58 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 58 58 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "FRONTGATE light"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "CHURCH light 9"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 179 159 149 }
+      ambiant {
+        rgb { 179 159 149 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 179 159 149 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "CHURCH light10"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 99 119 220 }
+      ambiant {
+        rgb { 99 119 220 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 99 119 220 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "CHURCH light11"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 99 119 200 }
+      ambiant {
+        rgb { 99 119 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 99 119 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "CHURCH light12"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 200 99 }
+      ambiant {
+        rgb { 200 200 99 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 200 99 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "CHURCH light mo"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 99 99 }
+      ambiant {
+        rgb { 200 99 99 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 99 99 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "CHURCH light st"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 164 42 108 }
+      ambiant {
+        rgb { 164 42 108 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 164 42 108 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "CHURCH light gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 179 159 }
+      ambiant {
+        rgb { 200 179 159 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 179 159 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "BRIDGE light gr"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GARD light gray"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GARD light s13"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 200 89 68 }
+      ambiant {
+        rgb { 200 89 68 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 200 89 68 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GARD light mode"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 179 130 89 }
+      ambiant {
+        rgb { 179 130 89 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 179 130 89 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "GARD light stro"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 170 89 58 }
+      ambiant {
+        rgb { 170 89 58 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 170 89 58 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "WELL light gray"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 139 139 200 }
+      ambiant {
+        rgb { 139 139 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 139 139 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  material { "WELL light stro"
+    surface {
+      /* RGB chunk no longer used */
+      rgb { 68 149 200 }
+      ambiant {
+        rgb { 68 149 200 }
+        factor { 0.30000 }
+      }
+      diffuse {
+        rgb { 68 149 200 }
+        factor { 0.70000 }
+      }
+      phongsize { 1 }
+    }
+  }
+  mesh {
+    name { "BRIDGE" }
+    base {
+      origin { (-370.31 309.54 1130.4) }
+      orientation { (0.06233 0.72431 -0.09448 -0.68012) }
+    }
+    pivot {
+      origin { (-1196.7 33.647 -128.72) }
+    }
+    material { "BRIDGE light gr" }
+    smoothangle { 45 }
+    /* 52 points, 106 faces, 0 uvCoords */
+    materiallist {
+      materialname { "BRIDGE light gr" }
+    }
+    points {
+      (-891.27 0.00006 -93.898) (-891.27 0.00006 -156.5) 
+      (-947.43 0.00006 -155.71) (-947.43 0.00006 -93.898) 
+      (-1004.1 20.843 -93.898) (-1004.1 20.843 -156.5) (-1051.8 30.186 -156.5) 
+      (-1052.4 30.186 -93.898) (-1111 30.186 -156.5) (-1110.7 30.186 -93.898) 
+      (-1161.7 18.687 -155.71) (-1161.7 18.687 -93.898) 
+      (-1206.8 0.00008 -155.71) (-1205.1 0.00008 -93.898) 
+      (-1263.6 0.00008 -70.424) (-1263.6 0.00008 -187.01) 
+      (-947.43 0.00006 -148.67) (-1004.1 20.843 -101.72) 
+      (-1050.6 30.186 -148.67) (-1111 30.186 -148.67) (-1160.7 18.687 -101.72) 
+      (-1205.8 0.00008 -148.67) (-947.43 0.00006 -101.72) 
+      (-1003.9 20.843 -148.67) (-1052.4 30.186 -101.72) (-1110.3 30.186 -101.72)
+      (-1160.7 18.687 -148.67) (-1205.8 0.00008 -101.72) 
+      (-946.83 31.623 -155.71) (-946.83 31.623 -93.898) (-1003.5 52.466 -93.898)
+      (-1003.5 52.466 -156.5) (-1051.2 61.809 -156.5) (-1051.8 61.809 -93.898) 
+      (-1110.3 61.809 -156.5) (-1110.1 61.809 -93.898) (-1161.1 50.31 -155.71) 
+      (-1161.1 50.31 -93.898) (-1206.2 31.623 -155.71) (-1204.5 31.623 -93.898) 
+      (-946.83 31.623 -148.67) (-1003.5 52.466 -101.72) (-1050 61.809 -148.67) 
+      (-1110.3 61.809 -148.67) (-1160.1 50.31 -101.72) (-1205.1 31.623 -148.67) 
+      (-946.83 31.623 -101.72) (-1003.3 52.466 -148.67) (-1051.8 61.809 -101.72)
+      (-1109.7 61.809 -101.72) (-1160.1 50.31 -148.67) (-1205.1 31.623 -101.72)
+    }
+    faces {
+      3 0 0 -1 ( (22) (3) (0) )
+      3 0 0 -1 ( (16) (0) (22) )
+      3 0 0 -1 ( (2) (16) (1) )
+      3 0 0 -1 ( (5) (2) (16) )
+      3 0 0 -1 ( (23) (5) (16) )
+      3 0 0 -1 ( (6) (5) (23) )
+      3 0 0 -1 ( (18) (23) (6) )
+      3 0 0 -1 ( (8) (6) (18) )
+      3 0 0 -1 ( (19) (18) (8) )
+      3 0 0 -1 ( (10) (8) (19) )
+      3 0 0 -1 ( (26) (19) (10) )
+      3 0 0 -1 ( (12) (10) (26) )
+      3 0 0 -1 ( (21) (26) (12) )
+      3 0 0 -1 ( (15) (12) (21) )
+      3 0 0 -1 ( (27) (21) (15) )
+      3 0 0 -1 ( (13) (27) (14) )
+      3 0 0 -1 ( (11) (13) (27) )
+      3 0 0 -1 ( (20) (11) (27) )
+      3 0 0 -1 ( (9) (11) (20) )
+      3 0 0 -1 ( (25) (20) (9) )
+      3 0 0 -1 ( (7) (9) (25) )
+      3 0 0 -1 ( (24) (25) (7) )
+      3 0 0 -1 ( (4) (7) (24) )
+      3 0 0 -1 ( (17) (24) (4) )
+      3 0 0 -1 ( (3) (4) (17) )
+      3 0 0 -1 ( (22) (17) (3) )
+      3 0 0 -1 ( (23) (22) (17) )
+      3 0 0 -1 ( (16) (22) (23) )
+      3 0 0 -1 ( (18) (23) (17) )
+      3 0 0 -1 ( (24) (18) (17) )
+      3 0 0 -1 ( (19) (18) (24) )
+      3 0 0 -1 ( (25) (24) (19) )
+      3 0 0 -1 ( (26) (19) (25) )
+      3 0 0 -1 ( (20) (25) (26) )
+      3 0 0 -1 ( (21) (26) (20) )
+      3 0 0 -1 ( (27) (20) (21) )
+      3 0 0 -1 ( (47) (31) (40) )
+      3 0 0 -1 ( (32) (31) (47) )
+      3 0 0 -1 ( (42) (47) (32) )
+      3 0 0 -1 ( (34) (32) (42) )
+      3 0 0 -1 ( (43) (42) (34) )
+      3 0 0 -1 ( (36) (34) (43) )
+      3 0 0 -1 ( (50) (43) (36) )
+      3 0 0 -1 ( (38) (36) (50) )
+      3 0 0 -1 ( (44) (37) (51) )
+      3 0 0 -1 ( (35) (37) (44) )
+      3 0 0 -1 ( (49) (44) (35) )
+      3 0 0 -1 ( (33) (35) (49) )
+      3 0 0 -1 ( (48) (49) (33) )
+      3 0 0 -1 ( (30) (33) (48) )
+      3 0 0 -1 ( (41) (48) (30) )
+      3 0 0 -1 ( (29) (30) (41) )
+      3 0 0 -1 ( (47) (46) (41) )
+      3 0 0 -1 ( (42) (47) (41) )
+      3 0 0 -1 ( (48) (42) (41) )
+      3 0 0 -1 ( (43) (42) (48) )
+      3 0 0 -1 ( (49) (48) (43) )
+      3 0 0 -1 ( (50) (43) (49) )
+      3 0 0 -1 ( (44) (49) (50) )
+      3 0 0 -1 ( (45) (50) (44) )
+      3 0 0 -1 ( (37) (13) (39) )
+      3 0 0 -1 ( (11) (37) (13) )
+      3 0 0 -1 ( (35) (37) (11) )
+      3 0 0 -1 ( (9) (11) (35) )
+      3 0 0 -1 ( (33) (35) (9) )
+      3 0 0 -1 ( (7) (9) (33) )
+      3 0 0 -1 ( (30) (33) (7) )
+      3 0 0 -1 ( (4) (7) (30) )
+      3 0 0 -1 ( (29) (30) (4) )
+      3 0 0 -1 ( (3) (4) (29) )
+      3 0 0 -1 ( (44) (51) (27) )
+      3 0 0 -1 ( (20) (27) (44) )
+      3 0 0 -1 ( (49) (44) (20) )
+      3 0 0 -1 ( (25) (20) (49) )
+      3 0 0 -1 ( (48) (49) (25) )
+      3 0 0 -1 ( (24) (25) (48) )
+      3 0 0 -1 ( (41) (48) (24) )
+      3 0 0 -1 ( (17) (24) (41) )
+      3 0 0 -1 ( (46) (41) (17) )
+      3 0 0 -1 ( (22) (17) (46) )
+      3 0 0 -1 ( (50) (45) (21) )
+      3 0 0 -1 ( (26) (21) (50) )
+      3 0 0 -1 ( (43) (50) (26) )
+      3 0 0 -1 ( (19) (26) (43) )
+      3 0 0 -1 ( (42) (43) (19) )
+      3 0 0 -1 ( (18) (19) (42) )
+      3 0 0 -1 ( (47) (42) (18) )
+      3 0 0 -1 ( (23) (18) (47) )
+      3 0 0 -1 ( (40) (47) (23) )
+      3 0 0 -1 ( (16) (23) (40) )
+      3 0 0 -1 ( (36) (38) (12) )
+      3 0 0 -1 ( (10) (12) (36) )
+      3 0 0 -1 ( (34) (36) (10) )
+      3 0 0 -1 ( (8) (10) (34) )
+      3 0 0 -1 ( (32) (34) (8) )
+      3 0 0 -1 ( (6) (8) (32) )
+      3 0 0 -1 ( (31) (32) (6) )
+      3 0 0 -1 ( (5) (6) (31) )
+      3 0 0 -1 ( (28) (31) (5) )
+      3 0 0 -1 ( (2) (5) (28) )
+      3 0 0 -1 ( (39) (13) (27) )
+      3 0 0 -1 ( (45) (12) (21) )
+      3 0 0 -1 ( (29) (22) (3) )
+      3 0 0 -1 ( (40) (2) (16) )
+      3 0 0 -1 ( (15) (27) (14) )
+      3 0 0 -1 ( (1) (16) (0) )
+    }
+  }
+}

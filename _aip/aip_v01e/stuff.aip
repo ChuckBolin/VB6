@@ -1,0 +1,24 @@
+'**********************************
+'stuff.aip
+'Date:7/5/2002
+'**********************************
+
+'system variables
+GAME.NAME=mnjh
+GAME.TYPE=1
+GAME.ROWS=4
+GAME.COLS=4
+GAME.TEACHER.SYMBOL=O
+GAME.TEACHER.VALUE=2
+GAME.PROGRAM.SYMBOL=X
+GAME.PROGRAM.VALUE=1
+GAME.GOFIRST=1
+GAME.CELL.COLOR=16777215
+GAME.CELL.SELECTEDCOLOR=65280
+
+'win-loss history
+GAME.PROGRAM.WIN=0
+GAME.PROGRAM.LOSS=0
+GAME.PROGRAM.TIE=0
+
+'winning patterns

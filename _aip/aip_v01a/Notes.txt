@@ -1,0 +1,73 @@
+'***********************************************
+'AIP.EXE v0.1 Notes to Programmer
+'June 11, 2002 - Chuck Bolin (cbolin@dycon.com)
+'***********************************************
+
+Variable Conventions
+====================
+The following prefixes are used in this program.
+	n	Integer
+	l	Long
+	f	Single or Double
+	s	String
+	b	Boolean
+	u	User Defined Types
+
+Variable scope can be indicated as follows
+
+	nCount	Procedure level variable
+	mnCount	Module level variable
+	gnCount	Global Variable
+
+'Artificial Intelligence Program Scripting Language (AIPSL)
+============================================================
+The following keywords comprise the AIP language.
+
+GRID(1,1);(3,3) 
+	'defines grid that is 3x3.
+GAME.CELL(x,y)	
+	'defines cell at row x and col y
+GAME.TYPE=x	
+	'x means the type of game such as
+	'x=1 Board is empty initially and is populated by game
+	'    pieces one at a time to create winning patterns.
+	'    I.e. Tic Tac Toe
+	'x=2 Board is populated with game pieces initially. Pieces
+	'    are moved strategically to capture all of opponent 
+	'    pieces.  I.e. Checkers.
+	'x=3 Board is populated with game pieces initially. Pieces
+	'    are move strategically to capture a specifc piece
+	'    i.e. Chess
+GAME.START=x
+	'x=1 Human goes first, x=2 Program plays first
+SYM(z).SHAPE="abcd"
+	'defines text symbolic shape for symbol number 'z'. In future applications this may
+	'be graphic image. "X" means an 'x' is used.
+SYM(z).NAME="abcd"
+	'name used for symbol z. I.e. NAME="Black Knight"
+ORG(z).SYMBOL=SYM(b)
+	'organism z is represented by symbol b's name and symbolic text shape.
+ORG(z).IPO(r,c)
+	'initial position row r, col c for organism z
+ORG(z).ROW
+ORG(z).COL
+	'current position of of organism z row and col, or
+ORG(z).POS(r,c)
+	'second way of saying this
+ABS(1,1);(1,2);(1,3)=1
+	'this absolute pattern resulted in one win so far
+REL(0,0);(0,1);(O,2)=3
+	'this relative pattern resulted in three wins thus far
+ORG(z).MOVE = MOV(0,0);(7,7)
+	'organism z is allowed to move along the path of 0,0 to 7,7 which is diagonal
+	'from top-left to bottom-right. Coordinates are relative
+ORG(z).MOVE = MOV(0,0);(7,7)|MOV(7,0);(0,7)
+	'organism can move along two paths diagonally
+ORG(z).MOVE = JMP(0,0);(2,1)
+	'organism can jump from its current position to new relative positions.
+ORG(z) CAP ORG(y);(3,4)
+	'organism z captured organism y at absolute position 3,4
+	
+
+
+

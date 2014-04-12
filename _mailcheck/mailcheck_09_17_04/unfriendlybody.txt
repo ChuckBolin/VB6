@@ -1,0 +1,27 @@
+'***********************************************************
+' The MessageBody is searched for any of these words. Most
+' likely they constitute SPAM. Once a word is found 
+' searching the rest of the email is ignored
+'***********************************************************
+
+'HTML table in body
+<table
+'pixel = 1, unreadable line of text
+size:1px
+size:1;
+'this is used to separate words
+<a href></a>
+'this is a link to some add requiring an ID number
+id=
+pid=
+cid*
+'don't like this one at all..clickhere
+c**ckhere
+'advertising...no thanks
+adtrack
+clickonthis
+.biz
+.info
+php?
+brazil
+

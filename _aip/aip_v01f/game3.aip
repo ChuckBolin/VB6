@@ -1,0 +1,27 @@
+'**********************************
+'game3.aip
+'Date:7/4/2002
+'**********************************
+
+'system variables
+GAME.NAME=
+GAME.TYPE=
+GAME.ROWS=
+GAME.COLS=
+GAME.TEACHER.SYMBOL=
+GAME.TEACHER.VALUE=
+GAME.PROGRAM.SYMBOL=
+GAME.PROGRAM.VALUE=
+GAME.GOFIRST=
+GAME.CELL.COLOR=
+GAME.CELL.SELECTEDCOLOR=
+
+'win-loss history
+GAME.PROGRAM.WIN=
+GAME.PROGRAM.LOSS=
+GAME.PROGRAM.TIE=
+
+'winning patterns
+ABS(1,1);(2,2);(3,3)=3
+ABS(1,2);(2,2);(3,2)=3
+ABS(3,1);(3,2);(3,3)=2

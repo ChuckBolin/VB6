@@ -1,0 +1,10 @@
+'**************************************************
+' This text which appears in the MessageBody is
+' considered friendly and helps to lower the
+' overall score.
+'**************************************************
+AIPSL
+charleshbolin
+http://www.sceg.com
+summervillegroup@yahoogroup.com
+

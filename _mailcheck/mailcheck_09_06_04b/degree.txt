@@ -1,0 +1,9 @@
+'*************************************************************
+'Created September 2004
+'This file contains words related to obtaining a degree.
+'The wildcard character '*' can be used to indicate any
+'character. Viagra could be written as v**gr*.
+'*************************************************************
+degree
+diploma
+education

@@ -1,0 +1,47 @@
+//This is my script file for my program
+background_color(0,0,0);  
+near_view (.01); // .01
+far_view (350);  // 200
+view_angle (45); // 45 
+fperson_initialize(0,1.5,0,0,0,-1,0,1,0); //initialize firstperson stuff
+                                            //x,y,z,lx,ly,lz,up_x,up_y,up_z
+fperson_vel(0);
+fperson_vel_max(5);
+fperson_vel_min(-2);
+fperson_hdg(0);
+fperson_hdg_rate(0);
+fperson_hdg_rate_max(10);
+fperson_vel_x(0);
+fperson_vel_y(0);
+fperson_headinglock(false);
+
+grid_on(true);
+grid_min_x(-25);
+grid_max_x(25);
+grid_min_z(-25);
+grid_max_z(25);
+grid_red(0);
+grid_green(1);
+grid_blue(1);
+stars(true);
+asteroids(true);
+planet(true);
+moons(false);
+hud(true);
+
+program_name(Grace Engine);
+program_version(0.1);
+program_description(This is a basic engine);
+program_date(04.15.03);
+program_programmer(Chuck Bolin);
+program_email(cbolin@dycon.com);
+program_URL(www.clg-net.com);
+program_helpfile(help.htm);
+program_logfile(mylog.txt);
+
+load_texture(0,font2.bmp);  
+load_texture(1,icons.bmp);
+load_texture(2,stars.bmp);
+
+bmp_icon(1);
+bmp_stars(2);

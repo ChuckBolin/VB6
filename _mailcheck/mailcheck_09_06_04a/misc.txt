@@ -1,0 +1,13 @@
+'*************************************************************
+'Created September 2004
+'This file contains words related to MISCELLANEOUS stuff that
+'doesn't go into other categories such as 'septic tank'.
+'The wildcard character '*' can be used to indicate any
+'character. Viagra could be written as v**gr*.
+'*************************************************************
+septictank
+important
+pokemon
+freetrial
+
+

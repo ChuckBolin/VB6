@@ -1,0 +1,58 @@
+//sample 1
+/*******************************************************************************
+* FUNCTION NAME: User_Autonomous_Code
+* PURPOSE:       Execute user's code during autonomous robot operation.
+* You should modify this routine by adding code which you wish to run in
+* autonomous mode.  It will be executed every program loop, and not
+* wait for or use any data from the Operator Interface.
+* CALLED FROM:   main.c file, main() routine when in Autonomous mode
+* ARGUMENTS:     none
+* RETURNS:       void
+*******************************************************************************/
+void User_Autonomous_Code(void)
+{
+
+  /********* Add your variables here ***************/
+
+  int a = 10;
+  int b;
+  int c;
+
+
+  /**************************************************/
+  /** DON'T CHANGE THE CODE BEGINNING HERE **********/
+  while (autonomous_mode)  
+  {
+    if (statusflag.NEW_SPI_DATA)      /* 26.2ms loop area */
+    {
+        Getdata(&rxdata);  
+  /*************** AND ENDING HERE ******************/
+  /**************************************************/
+       
+       /********* Start your code here **************/  
+
+  if(a < 20)
+  {
+    for(b=0;b<5;b++)
+    {
+      c++; 
+    }
+  }
+  
+
+
+
+
+
+
+
+
+      //Generate_Pwms(pwm13,pwm14,pwm15,pwm16); //Enable this line if you are using these PWMs
+      /*********   End your code here **************/  
+
+      /** DON'T CHANGE THE REMAINING CODE  **********/
+
+      Putdata(&txdata);  // DO NOT DELETE, or you will get no PWM outputs! 
+    }
+  }
+}

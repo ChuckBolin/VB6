@@ -1,0 +1,21 @@
+/***********************************
+ Sample1 - tests comments and
+ variable declarations and assign-
+ ments
+***********************************/
+
+/* this is one style of comments */
+char a;
+int b;
+long c;
+
+// this is another style of comments
+char d=12;
+int e=-1234;
+long f=123123123;
+
+/*
+unsigned char g=123;  /* this is not seen */
+unsigned int h=1254;  /* this is not seen */
+unsigned long i=12312354; /* this is not seen */
+*/

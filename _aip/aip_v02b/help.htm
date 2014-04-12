@@ -1,0 +1,399 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>AIP Help Page</title>
+</head>
+
+<body style="font-family: Arial">
+
+<h3><img src="logo2.jpg" width="141" height="142" alt="logo2.jpg (7448 bytes)"><font
+color="#008040"><a name="TopofPage"> </a><u>Artificial Intelligence Program&nbsp; (AIP)
+Version 0.2</u></font></h3>
+
+<ul>
+  <li><a href="#Creating Your First Game (Tic Tac Toe)">Creating Your First Game (Tic Tac Toe)</a></li>
+  <li><a href="#Playing a Saved Game">Playing a Saved Game</a></li>
+  <li><a href="#Creating Other Game Variations">Creating Other Game Variations</a></li>
+  <li><a href="#Variables">Variables Tab</a></li>
+  <li><a href="#Game File">Game File Tab</a></li>
+  <li><a href="#AI Knowledge">AI Knowledge Tab</a></li>
+  <li><a href="#Viewing the Error Log">Viewing the Error Log</a></li>
+  <li><a href="#Additional Help">Additional Help</a></li>
+</ul>
+
+<hr>
+
+<h4><a name="Creating Your First Game (Tic Tac Toe)"><font color="#008040">Creating Your
+First Game (Tic Tac Toe)</font></a></h4>
+
+<p><img src="gui.jpg" width="701" height="622" alt="gui.jpg (61640 bytes)"></p>
+
+<p>1. Start the program.<br>
+2. Click on <strong>File</strong>, <strong>New Game Type</strong>.<br>
+3. Click on <strong>3 x 3</strong> (Note, this is already checked by default but must be
+clicked to initiate a game).<br>
+4. At the popup window, enter the game name &quot;Tic Tac Toe&quot; and click <strong>OK</strong>.<br>
+5. Several buttons and text fields on the left side of the program window are enabled.
+&nbsp; From here it is possible to change the symbols of the teacher and program. Symbols
+represent game pieces.&nbsp; Each symbol has an associated numerical value. Additionally,
+the teacher (user) can select who plays first. The programs statistics are also displayed
+(wins, losses and ties).<br>
+6. By default, the program goes first. Click on the <strong>Start Game</strong> button.
+&nbsp; Several things happen. The buttons and text fields above the solid black horizontal
+line are disabled.&nbsp; The buttons below the Start Game button are enabled.&nbsp; The
+program places an 'X' on the game board or grid. <br>
+7. As a teacher, your purpose is to play Tic Tac Toe as you understand it.&nbsp; <strong>Click
+on a legal space within the game board</strong>.&nbsp; A 'O' will be placed on the grid.
+&nbsp; If you have made a mistake, simply click on the mistake and it will disappear.
+&nbsp; Try again.<br>
+8. After each play click on the <strong>Teacher Move Complete</strong> button.&nbsp; This
+signals the program to play.</p>
+
+<p><strong>NOTE:</strong> The program does not know what constitutes a win. Therefore it
+is important that the teacher pay careful attention to the game play. As soon as the
+teacher or program has won the game, the teacher must click on the <strong>Win option
+button</strong> and then carefully click on each symbol or cell that defines the win. Do
+not drag the mouse. Click on each cell. The cell will turn to a green color.</p>
+
+<p>9. Immediately upon highlighting the winning pattern in green, click the <strong>Send
+Feedback</strong> button. This informs the program that the game is over and signals the
+program to store the winning pattern within its knowledge base.</p>
+
+<p><strong>NOTE:</strong> In the event that no one wins, the teacher must click on the <strong>Tie
+option button</strong> and click <strong>Send Feedback</strong>. This terminates the game.</p>
+
+<p>10. Play can be repeated by clicking on the Start Game button.&nbsp; Generally, it is
+necessary to play against the program several times. Each time, the teacher should attempt
+to use another pattern or variation of a pattern.<br>
+11. Periodically, the game should be saved by clicking on File, Save Game.</p>
+
+<p>NOTE: It is a point of interest to click on the AI Knowledge tab and observe the
+results as the game is played. More detail can be found on the <a
+href="file:///C:/_geek/ai_program/aip_v02a/theory.htm">AIP Theory</a> page.</p>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+
+<h4><font color="#008040"><a name="Playing a Saved Game">Playing a Saved Game</a></font></h4>
+
+<p>1.&nbsp; Click on File, Open Existing Game.<br>
+2.&nbsp; Select the appropriate game file and click OK.<br>
+3.&nbsp; Opening an existing game file loads all game parameters into the computer
+program. The AI program will continue to build upon this knowledge base as the program
+continues game play.</p>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+
+<h4><font color="#008040"><a name="Creating Other Game Variations">Creating Other Game
+Variations</a></font></h4>
+
+<p>Try designing a game that uses a larger grid such as 5 x 5.&nbsp; Invent your own
+winning patterns such as an &quot;L&quot; shape using four cells or spaces.&nbsp; After
+winning, try playing an &quot;L&quot; shape that is inverted, upside down or flipped.
+&nbsp; It is possible to represent this shape in eight orientations.&nbsp; You can change
+the symbols to any alphanumeric character(s).</p>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+
+<h4><a name="Variables"><font color="#008040">Variables Tab</font></a></h4>
+
+<p><img src="tab_var.jpg" width="310" height="79" alt="tab_var.jpg (4993 bytes)"></p>
+
+<p>For the non-VB programmer who is not studying the open source code for AIP, this Tab
+has very little value.&nbsp; The purpose is to display all program Global Variables so the
+program can be more effectively studied and debugged. Following is a list of global
+variables displayed in this program.</p>
+
+<p>Note the prefix(es) used are as follows: (g)=global, (b)=boolean, (n)=integer, (l)=long
+integer, (s)=string and (u)=user-defined type.</p>
+
+<blockquote>
+  <blockquote>
+    <p><small><small>gbFilenameExists: False<br>
+    gbWin: False<br>
+    gbProgramTurn: True<br>
+    gbGameOver: False<br>
+    gbLoss: False<br>
+    gbTie: False<br>
+    gbTeacherDone: False<br>
+    gnGoFirst: 1<br>
+    gnRows: 3<br>
+    gnCols: 3<br>
+    gnProgramValue: 1<br>
+    gnTeacherValue: 2<br>
+    gnProgramWins: 0<br>
+    gnProgramLosses: 0<br>
+    gnProgramTies: 0<br>
+    gnTotalCells: 9<br>
+    gnGameType: 1<br>
+    gnMoveCount: 0<br>
+    gnGameCount: 0<br>
+    gnPlayCount: 0<br>
+    glCellColor: 16777215<br>
+    glCellSelectedColor: 65280<br>
+    gsRules: <br>
+    gsVersion: v0.2a<br>
+    gsProgramSymbol: X<br>
+    gsTeacherSymbol: O<br>
+    gsFilename: <br>
+    gsGameName: <br>
+    gnABSTotal: 0<br>
+    glTeacher: 0<br>
+    glProgram: 0<br>
+    glAllCells: 0<br>
+    glFreeCells: 0<br>
+    gbWinNotSaved: False<br>
+    uABS( 0) Pattern : 0<br>
+    uABS( 0) Wins : 0</small></small></p>
+  </blockquote>
+  <p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+</blockquote>
+
+<hr>
+
+<h4><a name="Game File"><font color="#008040">Game File Tab</font></a></h4>
+
+<p><img src="tab_game.jpg" width="300" height="72" alt="tab_game.jpg (4638 bytes)"></p>
+
+<p><font color="#000000">All games created by the teacher are saved as ASCII text files
+using an .AIP extension.&nbsp; All saved games can be opened for play.&nbsp; The major
+divisions of the game file are as follows.</font></p>
+
+<p><font color="#000000">Comment Header - provides filename and date file last saved<br>
+System Variables - these are variables necessary for the correct functioning of the AIP
+program game.<br>
+Win-Loss History - records the AI Program wins, losses and ties with the teacher.<br>
+Winning Patterns - all patterns that resulted in a win are recorded with ABS which means
+absolute position within the grid.&nbsp; Row and column coordinates follow in pairs inside
+parentheses.&nbsp; The '=1' means that this particular pattern has resulted in at least
+one win for either the program or the teacher.&nbsp; The particular upper case keywords
+below comprise the AIP Scripting language.</font></p>
+
+<blockquote>
+  <blockquote>
+    <p><small><small>'**********************************<br>
+    'game1.aip<br>
+    'Date:7/10/2002<br>
+    '**********************************<br>
+    <br>
+    'system variables<br>
+    GAME.NAME=TicTacToe<br>
+    GAME.TYPE=1<br>
+    GAME.ROWS=3<br>
+    GAME.COLS=3<br>
+    GAME.TEACHER.SYMBOL=O<br>
+    GAME.TEACHER.VALUE=2<br>
+    GAME.PROGRAM.SYMBOL=X<br>
+    GAME.PROGRAM.VALUE=1<br>
+    GAME.GOFIRST=1<br>
+    GAME.CELL.COLOR=16777215<br>
+    GAME.CELL.SELECTEDCOLOR=65280<br>
+    <br>
+    'win-loss history<br>
+    GAME.PROGRAM.WIN=0<br>
+    GAME.PROGRAM.LOSS=3<br>
+    GAME.PROGRAM.TIE=2<br>
+    <br>
+    'winning patterns<br>
+    ABS(1,1);(2,2);(3,3)=1<br>
+    ABS(1,3);(2,2);(3,1)=1<br>
+    ABS(1,1);(1,2);(1,3)=1<br>
+    ABS(2,1);(2,2);(2,3)=0<br>
+    ABS(3,1);(3,2);(3,3)=0</small></small></p>
+  </blockquote>
+</blockquote>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+
+<h4><a name="AI Knowledge"><font color="#008040">AI Knowledge Tab</font></a></h4>
+
+<p><img src="tab_AI.jpg" width="300" height="72" alt="tab_AI.jpg (5004 bytes)"></p>
+
+<p>The cells within the 3x3, 4x4 and 5x5 square grids adhere to a particular number
+convention.&nbsp; The top left cell in the grid is always number one. The numbering
+increases from left to right, top to bottom. Therefore, given a 3x3 grid, the top row from
+left to right is numbered 1 through 3, the middle row from left to right is numbered 4
+through 6 and the bottom row is numbered 7 through 9.&nbsp; The highest numbered cell is
+always the product of the rows and the columns.&nbsp; For example, a 3x3 grid has 9 cells,
+a 4x4 grid has 16 cells and a 5x5 grid has 25 cells.</p>
+
+<p>Additionally, each cell is assigned a bit position in a binary number. For example, a
+3x3 grid has 9 cells and therefore can be represented by a binary number that has 9
+&quot;1&quot; bits. Converted to decimal this is 511.&nbsp; The AIPSL (AIP Scripting
+Language) representation of the win is expressed with the ABS keyword.&nbsp; IN the
+example below, this winning pattern which is a diagonal from the top left to the bottom
+right is represented by a binary number equivalent to 273 decimal.</p>
+
+<blockquote>
+  <blockquote>
+    <p><small><small>AIP Scripting Representation of Knowledge<br>
+    ******************************************************<br>
+    273&nbsp;&nbsp;&nbsp;&nbsp; = ABS(1,1);(2,2);(3,3)=1<br>
+    84&nbsp;&nbsp;&nbsp;&nbsp; = ABS(1,3);(2,2);(3,1)=1<br>
+    7&nbsp;&nbsp;&nbsp;&nbsp; = ABS(1,1);(1,2);(1,3)=1<br>
+    56&nbsp;&nbsp;&nbsp;&nbsp; = ABS(2,1);(2,2);(2,3)=0<br>
+    448&nbsp;&nbsp;&nbsp;&nbsp; = ABS(3,1);(3,2);(3,3)=0</small></small></p>
+  </blockquote>
+</blockquote>
+
+<p>Following is a binary representation of all winning patterns that the program still has
+the capability of winning.&nbsp; The digits 9 through 1 represent the actual cells within
+the grid.&nbsp; For Tic Tac Toe, notice that there are only three bits set which define a
+winning row, column or diagonal.&nbsp; Following the nine digit number, is the equal sign
+followed by two numbers. The first of the numbers is a count of all bits to the immediate
+left.&nbsp; The number inside the parentheses is the number of times that this particular
+pattern has been won by the program or teacher.</p>
+
+<blockquote>
+  <blockquote>
+    <p><small><small><br>
+    ***************************<br>
+    Program cells to win...<br>
+    ***************************<br>
+    9 8 7 6 5 4 3 2 1 <br>
+    ***************************<br>
+    1 0 0 0 1 0 0 0 1 = 3 (1)<br>
+    0 0 1 0 1 0 1 0 0 = 3 (1)<br>
+    0 0 0 0 0 0 1 1 1 = 3 (1)<br>
+    0 0 0 1 1 1 0 0 0 = 3 (0)<br>
+    1 0 1 0 0 0 0 0 0 = 2 (0)<br>
+    ***************************<br>
+    2 0 2 1 3 1 2 1 2 <br>
+    </small></small></p>
+  </blockquote>
+</blockquote>
+
+<p>The numbered row&nbsp; below the binary values represents the sum of all bits added
+vertically.</p>
+
+<blockquote>
+  <blockquote>
+    <p><small><small><br>
+    ***************************<br>
+    Teacher cells to win...<br>
+    ***************************<br>
+    9 8 7 6 5 4 3 2 1 <br>
+    ***************************<br>
+    1 0 0 0 1 0 0 0 1 = 3 (1)<br>
+    0 0 1 0 1 0 1 0 0 = 3 (1)<br>
+    0 0 0 0 0 0 1 1 1 = 3 (1)<br>
+    0 0 0 1 1 1 0 0 0 = 3 (0)<br>
+    ***************************<br>
+    1 0 1 1 3 1 2 1 2 <br>
+    </small></small></p>
+  </blockquote>
+</blockquote>
+
+<p>The status of the board in terms of which cells are used, which cells are still free or
+empty, which cells have been played by the computer and which cells have been played by
+the program is indicated below.</p>
+
+<blockquote>
+  <blockquote>
+    <p><small><small><br>
+    All Used: 0 1 0 0 0 0 0 0 0 <br>
+    Free: 1 0 1 1 1 1 1 1 1 <br>
+    Prog: 0 1 0 0 0 0 0 0 0 <br>
+    Teach: 0 0 0 0 0 0 0 0 0 <br>
+    </small></small></p>
+  </blockquote>
+</blockquote>
+
+<p>The above information is explained better on the <a
+href="file:///C:/_geek/ai_program/aip_v02a/theory.htm">AIP Theory</a> page.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+
+<h4><font color="#008040"><a name="Viewing the Error Log">Viewing the Error Log</a></font></h4>
+
+<p>Viewing the Error Log is accomplished by clicking on Help, Error Log.&nbsp; This starts
+Windows Notepad.exe and displays the contents of the ASCII file EVENTLOG.TXT.&nbsp; As a
+general rule, most errors occuring during the program process is handled by a error
+handling routine that data logs the error to the file EVENTLOG.TXT. Additionally, all
+global variable names and values are dumped to this file.</p>
+
+<p>It is recommended that the AIP user send this file as an attachment when reporting bugs
+or errors that occur during the operation of the program.</p>
+
+<blockquote>
+  <blockquote>
+    <p><small><small>********************************************************<br>
+    E R R O R ! ! !<br>
+    No.: 0<br>
+    Description: <br>
+    Form: AIEngineMod<br>
+    Procedure: GetFactBasedMove<br>
+    Location in Code: <br>
+    Info: <br>
+    DATE: 7/7/2002 TIME: 1:16:00 AM<br>
+    ********************************************************<br>
+    G L O B A L V A R I A B L E S<br>
+    ********************************************************<br>
+    gbFilenameExists: True<br>
+    gbWin: False<br>
+    gbProgramTurn: True<br>
+    gbGameOver: False<br>
+    gbLoss: False<br>
+    gbTie: False<br>
+    gbTeacherDone: False<br>
+    gnGoFirst: 1<br>
+    gnRows: 5<br>
+    gnCols: 5<br>
+    gnProgramValue: 1<br>
+    gnTeacherValue: 2<br>
+    gnProgramWins: 0<br>
+    gnProgramLosses: 0<br>
+    gnProgramTies: 0<br>
+    gnTotalCells: 25<br>
+    gnGameType: 1<br>
+    gnMoveCount: 0<br>
+    gnGameCount: 0<br>
+    gnPlayCount: 0<br>
+    glCellColor: 16777215<br>
+    glCellSelectedColor: 65280<br>
+    gsRules: <br>
+    gsVersion: v0.1g<br>
+    gsProgramSymbol: X<br>
+    gsTeacherSymbol: O<br>
+    gsFilename: <br>
+    gsGameName: Big Game<br>
+    gnABSTotal: 0<br>
+    glTeacher: 0<br>
+    glProgram: 0<br>
+    glAllCells: 0<br>
+    glAllCellsInverted: 33554431<br>
+    gbWinNotSaved: False<br>
+    uABS( 0) Pattern : 0<br>
+    uABS( 0) Wins : 0<br>
+    </small></small></p>
+  </blockquote>
+</blockquote>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+
+<h4><font color="#008040"><a name="Additional Help">Additional Help</a></font></h4>
+
+<p>The primary web site supporting AIP is <a href="http://www.clg-net.com/ai/index.htm">http://www.clg-net.com/ai/index.htm</a>.
+&nbsp; The programmer can be contacted via <a
+href="mailto:cbolin@dycon.com?subject=AIP Program Help File">email</a>. Make sure you
+reference the version number.</p>
+
+<p align="center"><a href="#TopofPage">Go to Top of Page</a></p>
+
+<hr>
+</body>
+</html>

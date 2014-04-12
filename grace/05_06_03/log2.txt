@@ -1,0 +1,68 @@
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: Grace Engine
+Description: This is a basic program.
+Revision Date: 01.16.03
+Programmer: Chuck Bolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+App Path: C:\Dev-C++\programs\grace\grace.exe
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: Grace Engine
+Description: This is a basic program.
+Revision Date: 01.16.03
+Programmer: Chuck Bolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+App Path: C:\Dev-C++\programs\grace\grace.exe
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: Grace Engine
+Description: This is a basic program.
+Revision Date: 01.16.03
+Programmer: Chuck Bolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+App Path: C:\Dev-C++\programs\grace\05_06_03\grace.exe
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: Grace Engine
+Description: This is a basic program.
+Revision Date: 01.16.03
+Programmer: Chuck Bolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+App Path: C:\Dev-C++\programs\grace\05_06_03\grace.exe
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().

@@ -1,0 +1,36 @@
+********************************************************
+DATE: 06/14/2002   TIME: 12:55:43 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 1:00:24 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: 
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 1:00:30 PM
+E R R O R ! ! !
+No.: 13
+Description: Type mismatch
+Form: Module Subs
+Procedure: GetCoordinatePair
+Location in Code: Not provided!
+*********************************************************
+********************************************************
+DATE: 06/14/2002   TIME: 3:30:34 PM
+E R R O R ! ! !
+No.: 5
+Description: Invalid procedure call or argument
+Form: frmMain
+Procedure: cmdProcess_Click
+Location in Code: 
+*********************************************************

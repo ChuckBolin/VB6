@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0040)http://www.ostrosoft.com/vb/FAQ/net.html -->
+<HTML><HEAD><TITLE>Visual Basic 911 - FAQ (network/Internet)</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 5.50.4923.2500" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<P align=center><FONT color=#ff0000 size=5>Visual Basic 911 - FAQ 
+(network/Internet)</FONT></P>
+<P><B><FONT color=#008080><A name=1></A>I wrote the domain scanner, but it's 
+working too slow. How to make it faster?</FONT></B><BR><BR>The best way to make 
+your code faster - multithreading: don't wait until the first socket return you 
+result, but start as many&nbsp;<BR>as your system lets you and dispatch messages 
+from them. You can use Visual Basic as well as Visual C++. I've also heard about 
+PowerBuilder and Delphi implementations.<BR><BR><B><FONT color=#008080><A 
+name=2></A>How many Winsock controls can I have 
+simultaneously?<BR></FONT></B><BR>You should play with it to find out. In most 
+cases its limited by RAM. And, of course, you can't have more than 32,767 
+simultaneous socket connections on Windows (I was never able to get more than 
+2,000 even on dual Pentium Pro 200<BR>with 256 MB RAM)<BR><BR><B><FONT 
+color=#008080><A name=3></A>How&nbsp; to resolve remote system 
+name?</FONT></B><BR><BR>You can use gethostbyname and gethostbyaddress APIs. 
+Check <A href="http://www.ostrosoft.com/vb/controls/dns_source.html">"Writing 
+the DNS Control"</A> project.<BR><BR><B><FONT color=#008080><A name=4></A>How to 
+add Winsock controls at runtime?</FONT></B><BR><BR>Add Winsock control to your 
+project. Set its Index property to 0. To load more controls during run-time use 
+following code:<BR>&nbsp;&nbsp;&nbsp; For i = 1 to 
+NumberOfControlsYouNeed<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Load 
+Winsock1(i)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Winsock1(i).RemoteHost 
+= "..."<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Winsock1(i).RemotePort = 
+...<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Winsock1(i).Connect<BR>&nbsp;&nbsp;&nbsp; Next<BR><BR><B><FONT color=#008080><A 
+name=5></A>Do I have to use MAPI to write email client for 
+Windows?</FONT></B><BR><BR>Not at all. Best way to write email client is - using 
+Winsock control. You need to know <A 
+href="http://www.ostrosoft.com/vb/rfc/rfc1939.html">POP</A> (for reading e-mail) 
+and <A href="http://www.ostrosoft.com/vb/rfc/rfc821.html">SMTP</A> (for sending 
+e-mail)<BR><BR><B><FONT color=#008080><A name=6></A>How to connect to the Web 
+server after I wrote the email client using VB?</FONT></B><BR><BR>I think you 
+mean mail, not Web, server. Set RemoteHost property for Winsock 
+control.<BR><BR><B><FONT color=#008080><A name=7></A>What things are necessary 
+to write email client using VB?</FONT></B><BR><BR>You need at least Professional 
+Edition (Microsoft doesn't ship Winsock control with Learning or Standard 
+edition). Of course&nbsp;<BR>you need Internet connection (dial-up or LAN). You 
+need to look through Winsock control help file, <A 
+href="http://www.ostrosoft.com/vb/rfc/rfc1939.html">POP</A> and <A 
+href="http://www.ostrosoft.com/vb/rfc/rfc821.html">SMTP</A> RFCs. Also you need 
+basic understanding how Internet protocols work.<BR><BR><B><FONT 
+color=#008080><A name=8></A>Do I need VB6 to write email 
+program?<BR></FONT></B><BR>Not really. Nothing much changed in Winsock control 
+from VB4 to VB6<BR><BR><B><FONT color=#008080><A name=9></A>How do I make my 
+program to send email to me during the installation or on the first 
+start?<BR></FONT></B><BR>You can use SMTP control from&nbsp; <A 
+href="http://www.ostrosoft.com/vb/controls/smtp.html">http://www.ostrosoft.com/vb/controls/smtp.html</A> 
+Don't forget to include mswinsck.ocx in your setup. On the start you can check, 
+for example, special program key in Registry and if it's not set (means first 
+use), then send e-mail and set the key<BR><BR><B><FONT color=#008080><A 
+name=10></A>How do I receive email with SMTP control?</FONT></B><BR><BR>You 
+can't. You need POP-based control for it<BR><BR><B><FONT color=#008080><A 
+name=11></A>I didn't find anything about SMTP in VB help 
+file</FONT></B><BR><BR>check <A 
+href="http://www.ostrosoft.com/vb/rfc/rfc821.html">SMTP</A> RFC<BR><BR><B><FONT 
+color=#008080><A name=12></A>How do I learn more about Winsock 
+programming?</FONT></B><BR><BR>There is a great book written by Carl Franklin: 
+<A href="http://www.amazon.com/exec/obidos/ASIN/0471314986/ostrosoft">"Internet 
+programming with VB"</A><BR><BR><B><FONT color=#008080><A name=13></A>I've seen 
+email program that doesn't use Winsock control. How come?<BR></FONT></B><BR>It 
+was probably using MAPI. Good for Windows Messaging, not for Internet 
+email.<BR><BR><B><FONT color=#008080><A name=14></A>How do I write a control to 
+post messages to news groups?</FONT></B><BR><BR>There is a great NNTP sample in 
+Carl Franklin's book <A 
+href="http://www.amazon.com/exec/obidos/ASIN/0471314986/ostrosoft">"Internet 
+programming with VB"</A>. There is nothing special in writing NNTP client. You 
+need to know <A href="http://www.ostrosoft.com/vb/rfc/rfc977.html">NNTP</A> RFC 
+and how Winsock control works.<BR><BR><B><FONT color=#008080><A 
+name=15></A>What's happened to Portscan/GLAZ/OstroSoft Ping/Domain Scanner/etc? 
+Can't download then anymore.</FONT></B><BR><BR>All these programs are no longer 
+supported as separate applications, but included in OstroSoft Internet Tools. 
+You can download the latest version at <A 
+href="http://www.ostrosoft.com/download/full/ostronet.exe">http://www.ostrosoft.com/download/full/ostronet.exe</A><BR><BR><B><FONT 
+color=#008080><A name=16></A>How can I send a text file via email from my VB 
+application?</FONT></B><BR><BR>You can use SMTP control available for download 
+at <A 
+href="http://www.ostrosoft.com/download/SMTP.ocx">http://www.ostrosoft.com/download/SMTP.ocx</A>.&nbsp;<BR>Open 
+file for input, read it to string variable, set SMTP.MessageBody equal to this 
+variable and send it.<BR><BR><B><FONT color=#008080><A name=17></A>How can I 
+write telnet program with Winsock control?<BR></FONT></B><BR>You need to know 
+Telnet protocol and there is nothing better to explain it than Telnet RFC. You 
+can get it at <A 
+href="http://www.cis.ohio-state.edu/htbin/rfc/rfc854.html">http://www.cis.ohio-state.edu/htbin/rfc/rfc854.html</A><BR><BR><B><FONT 
+color=#008080><A name=18></A>How to scan NT network for the machines that are 
+currently running?</FONT></B><BR><BR>Try ADSI. This project might help you <A 
+href="http://www.netfokus.dk/vbadmincode/code/netres1.zip">http://www.netfokus.dk/vbadmincode/code/netres1.zip</A><BR><BR><B><FONT 
+color=#008080><A name=19></A>How can I attach files using the SMTP 
+(Winsock)?</FONT></B><BR><BR>You need to write SMTP control supporting MIME 
+attachments. There is a bunch of <A 
+href="http://www.ostrosoft.com/vb/rfc/rfc2045.html">RFCs</A> you have&nbsp; to 
+know.<BR>&nbsp;<BR><B><FONT color=#008080><A name=20></A>How can I program 
+Winsock to check my email (POP3)?</FONT></B><BR><BR>Write POP3 client. All you 
+need is to know how Winsock works and <A 
+href="http://www.ostrosoft.com/vb/rfc/rfc1939.html">POP3</A> 
+RFC.<BR><BR><B><FONT color=#008080><A name=21></A>I am using OstroSoft Internet 
+Tools 1.1. Where can I download the latest version?</FONT></B><BR><BR><A 
+href="http://www.ostrosoft.com/ostronet.html">http://www.ostrosoft.com/ostronet.html</A><BR><BR><B><FONT 
+color=#008080><A name=22></A>What AOL SMTP server is?</FONT></B><BR><BR>I'm 
+pretty sure that there is no such a thing, since AOL's using proprietary mail 
+protocol.<BR><BR><B><FONT color=#008080><A name=23></A>How do I write ftp 
+program using VB?</FONT></B><BR><BR>FTP is pretty complicated protocol. There is 
+a control providing stripped-down implementation of FTP - Microsoft Internet 
+Transfer control (MSINET.OCX). It comes with VB 5/6 in Pro/Enterprise versions. 
+There is also help file explaining the usage of control.<BR>I also have sample 
+project on VB 911 - <A 
+href="http://www.ostrosoft.com/vb/projects/transfer.html">"Transfer files"</A>. 
+Though it's not FTP it uses the same principle (less functionality, of 
+course)<BR><BR><B><FONT color=#008080><A name=24></A>How do I monitor the&nbsp; 
+modem connection using VB?</FONT></B><BR><BR><A 
+href="http://www.zarr.com/vb/download/ccheckduncount.zip">http://www.zarr.com/vb/download/ccheckduncount.zip</A><BR><BR><B><FONT 
+color=#008080><A name=25></A>Is it possible to create a Telnet client program in 
+VB5?</FONT></B><BR><BR>It is certainly possible, though it might be a big 
+project. There is a bad sample (the only sample I've seen so far) at<BR><A 
+href="http://www.netfokus.dk/vbadmincode/code/telnet.zip">http://www.netfokus.dk/vbadmincode/code/telnet.zip</A><BR><BR><B><FONT 
+color=#008080><A name=26></A>From my workstation I need to read the date/time on 
+the NT server to use as the timestamp for database (I'm using 
+.mdb).</FONT></B><BR><BR>Timestamp in Access uses local system clock, so the 
+only thing&nbsp;you can do - is synchronize it with server clock. You need to 
+have simple TCP/IP services running on NT server. Connect to port 13 (datetime) 
+on it using Winsock and it will&nbsp;return you a server date/time. Then you can 
+use API to set&nbsp;your workstation clock to time you 
+received.&nbsp;<BR><BR><B><FONT color=#008080><A name=27></A>How can I configure 
+internet transfer control or Winsock control for internet connection over 
+intranet?</FONT></B><BR><BR>There is no special intranet configuration for Inet 
+and Winsock controls. If you are able to connect to internet from your intranet, 
+then you&nbsp;should be able to use these controls. If not - nothing can help 
+you.<BR><BR><B><FONT color=#008080><A name=28></A>How to do a HTTP-POST to a 
+specific address with specific values and get the resulting page (response) as a 
+string?</FONT></B><BR><BR>Say you have form <BR>&lt;form action=action.asp 
+method=post&gt;<BR>name: &lt;input type=text name=name&gt;<BR>&lt;input 
+type=submit&gt;<BR>&lt;/form&gt;<BR><BR>You should send something like 
+this:<BR><BR>POST /action.asp HTTP/1.0<BR>Connection: Keep-Alive<BR>Host: 
+www.yourhost.com<BR>Accept: */*<BR><BR>Content-type: 
+application/x-www-form-urlencoded<BR>Content-length: 
+9<BR><BR>name=Yourname<BR><BR>You can use Microsoft Winsock control for it. On 
+Connect - send header. On DataArrival - get response.<BR><BR><B><FONT 
+color=#008080><A name=29></A>I am making a file transfer and I want the client 
+to tell the server the file extension before it sends.</FONT></B><BR><BR>You can 
+use file transfer project from my website: <A 
+href="http://www.ostrosoft.com/vb/projects/transfer.html">http://www.ostrosoft.com/vb/projects/transfer.html</A> 
+<BR>You need to change few things, like make it 2-step process:<BR>1)on connect 
+client sends filename to server<BR>2)server store it, responds to 
+client<BR>3)client sends file to server<BR>4)server saves file under temporary 
+name, on transmission end server renames&nbsp;file to previously stored 
+filename<BR><BR><B><FONT color=#008080><A name=30></A>Inet.ocx gets hang 
+sometimes without any response, crashing the whole application. Any 
+suggestions?</FONT></B><BR><BR>inet.ocx is very unstable. I gave up on it long 
+ago. Instead I'm using Winsock control along with <A 
+href="http://www.ostrosoft.com/vb/rfc/rfc1945.html">HTTP</A> RFC<BR><BR><B><FONT 
+color=#008080><A name=31></A>How do I get all the records from the DNS server 
+(AA, CNAME, etc...)?</FONT></B><BR><BR>It's pretty complicated. Check RFCs <A 
+href="http://www.ostrosoft.com/vb/rfc/rfc1034.html">1034</A> and 1035 for info 
+on DNS. Use TCP on port 53.<BR><BR><B><FONT color=#008080><A name=32></A>How can 
+I send email with attachment in VB?</FONT></B><BR><BR>You have few 
+options.<BR>1. Using Winsock you can write control supporting SMTP with MIME 
+attachments. It's most difficult way, since you have to learn bunch of RFCs. In 
+this case&nbsp;you can use sample SMTP project, located at <A 
+href="http://www.ostrosoft.com/vb/controls/smtp.html">http://www.ostrosoft.com/vb/controls/smtp.html</A> 
+and extend it with attachments<BR>2. If you are going to use Exchange server (or 
+any other MAPI-complaint server),&nbsp;your best choice is - Microsoft MAPI 
+controls<BR>3. And, finally, if you have IIS with SMTP on NT server, you can use 
+CDONTS&nbsp;library.<BR><BR><B><FONT color=#008080><A name=33></A>How do I find 
+my SMTP server?</FONT></B><BR><BR>Ask your ISP. ISPs usually have the same 
+server for both&nbsp;SMTP (sending e-mails) and POP3 (receiving 
+e-mails)<BR><BR></P></BODY></HTML>

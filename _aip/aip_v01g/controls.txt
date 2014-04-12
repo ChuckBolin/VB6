@@ -1,0 +1,32 @@
+This program uses Microsoft's Flexible Grid, TAB and Statusbar controls.
+
+These controls require the following OCX files to be installed to the computer.
+
+MSFLXGRD.OCX	- Flexible Grid Control
+MSCOMCTL.OCX	- TAB and Statusbar Controls
+
+If you get errors pertaining to some 'class ID' that cannot be found, etc....this is
+most likely the problem.
+
+Do you have this file?  Go to Start...Search (or Find) and look for 
+
+MSFLXGRD.OCX
+MSCOMCTL.OCX
+
+on your hard drive. It is usually located in C:\WINDOWS\SYSTEM folder (Win98,98,ME).
+
+If it is not found then download the files from
+
+HTTP://WWW.CLG-NET.COM/AI/INDEX.HTM
+
+Once the files are downloaded, the control must be registered.  Go to Start..Run and type:
+
+REGSVR32 C:\WINDOWS\SYSTEM\MSFLXGRD.OCX and click OK.
+REGSVR32 C:\WINDOWS\SYSTEM\MSCOMCTL.OCX and click OK.
+
+A message box will be displayed that says something like:
+
+DLLRegisterServer in C:\WINDOWS\SYSTEM\MSFLXGRD.OCX succeeded.
+DLLRegisterServer in C:\WINDOWS\SYSTEM\MSCOMCTL.OCX succeeded.
+
+Now, run the AIP program and all should work.

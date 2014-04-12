@@ -1,0 +1,67 @@
+//VM FIRST - Written by Chuck Bolin, April 2005
+//Revised 4.6.05
+
+1.  The user types in the autonomous code.
+2.  User clicks Compile/Load button.
+3.  Program converts C code to intermediate code and loads the array.
+4.  Timer tmrUpdate (26mSec) processes as follows...
+	a. All inputs are read
+	b. Intermediate code program is processed one step at a time.
+	c. All outputs are set as required.
+	d. Robot on field obeys program sequence.
+
+//Intermediate commands
+
+CVAR a,type,val		Creates variable named 'a' of type 'type. Value	= val.
+SVAR a, val		Sets a variable (already created) named 'a' to value=val.
+GLR a,op,b,[index]	Gets logical result. I.e. a and b are variables or constants.
+			'op' is an operator such as <, > =.  If true, program control jumps
+			to next index location. If false, program jumps to location in [index].
+JMP index		Jumps to array location index.
+SOUT out, val		Sets the output 'out' to the value of 'val'.
+INC a, val		Increments variable 'a' by value in 'val'.
+DEC a, val		Decrements variable 'a' by value in 'val'.
+END			Program loop ends.
+
+
+
+//Example 1:  Creates/assigns variables, for within for loop
+
+// "C" code
+//************************************************************************************
+char i;
+unsigned char j;
+int k = 3;
+unsigned int l = 4;
+long m = 5;
+unsigned long n = 6;
+for(i = 0; i<10;i++)
+{
+  for(j = 0; j<5;j++)
+  {
+    k++;
+  }
+  m++;
+}
+i=7;
+j=8;
+
+
+// "VM" code
+CVAR i,char,0
+CVAR j,unsigned char,0
+CVAR k,int,3
+CVAR l,unsigned int,4
+CVAR m,long,5
+CVAR n,unsigned long,6
+SVAR i , 0
+GLR i,<,10,[7]
+SVAR j , 0
+GLR j,<,5,[3]
+INC k,1
+JMP [-2]
+INC m,1
+JMP [-6]
+SVAR i,7
+SVAR j,8
+//************************************************************************************

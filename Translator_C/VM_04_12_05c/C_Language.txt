@@ -1,0 +1,17 @@
+C Language recognized by the F.I.R.S.T RC VirtualMachine Program
+
+Variable Types
+int, unsigned int, char, unsigned char, long,unsigned long
+
+examples:
+=========
+char i;
+unsigned char j;
+int k = 3;
+unsigned int l = 4;
+long m = 5;
+unsigned long n = 6;
+
+assignment of a variable:     i = 3;
+
+

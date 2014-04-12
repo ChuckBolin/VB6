@@ -1,0 +1,156 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Artificial Intelligence Program (AIP) Version 0.1</title>
+</head>
+
+<body>
+
+<h3><font face="Arial"><a name="TopPage"> </a>Artificial Intelligence Program (AIP)
+Version 0.1</font><font FACE="Arial" SIZE="3"></h3>
+
+<hr>
+
+<p>AIP is a program that has the capacity and ability to learn to play simple games board
+games such as Tic Tac Toe. However the program has no knowledge of the game nor what
+constitutes a win.</p>
+
+<p>AIP must be taught by the user (teacher) to play the game. AIP is only capable of
+selecting random moves the very first time it plays. As the teacher wins a game, he or she
+highlights the pattern that constitutes the win. This winning pattern is sent to the data
+array and is available for processing by AIP.</p>
+
+<p>AIP has an intricate pattern recognition ability. It can take a pattern from a 3 x 3
+grid and manipulate it several ways in an effort to increase its knowledge base. Each win
+by the teacher or program reinforces certain acquired knowledge.</p>
+
+<p>After playing a handful of games such as Tic Tac Toe, AIP will learn the game and will
+soon be able to block winning plays by the teacher and will strive to win itself.
+Eventually, the teacher will find the program unbeatable (theoretical).</font></p>
+
+<h2><font face="Arial" size="3">Table of Contents</font></h2>
+
+<p><font face="Arial" size="3"><a href="#Allowable Game Boards">Allowable Game Boards</a><br>
+<a href="#Winning Patterns">Winning Patterns</a><br>
+<a href="#Bit Representation of Winning Pattern">Bit Representation of Winning Patterns</a><br>
+<br>
+</font></p>
+
+<p><font face="Arial" size="3">&nbsp;</font></p>
+
+<p><font face="Arial" size="3">&nbsp;</font></p>
+
+<hr>
+
+<h2><a name="Allowable Game Boards"><font face="Arial" size="3">Allowable Game Boards</font></a></h2>
+<font FACE="Arial" SIZE="3">
+
+<p>AIP v0.1 recognizes three different game board sizes. The boards are organized into
+grids. They are square grids meaning the number of rows is equal to the number of columns.
+</font></p>
+
+<p><img src="all3grids.jpg" width="418" height="152" alt="all3grids.jpg (14182 bytes)"></p>
+
+<p><strong><font face="Arial">&nbsp;&nbsp;&nbsp;&nbsp; 3x3 Grid
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4x4
+Grid
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5x5
+Grid</font></strong></p>
+
+<p><font face="Arial">The 3x3 grid has 9 playable cells, the 4x4 has 16 playable cells and
+the 5x5 has 25 playable cells.</font></p>
+
+<p><font face="Arial">AIP v0.1 is limited to Game Type =1.&nbsp; This describes a game
+that uses a grid-like board that is squared (rows = columns).&nbsp; Additionally, neither
+the program nor the teacher have game pieces on the board. It is empty.&nbsp; The teacher
+select who moves first, teacher or the program.&nbsp; A game piece is identified by an
+alphanumeric character. For example: 'X' and 'O'.&nbsp; The goal of a Type 1 game is to
+move the pieces to conform to a particular pattern.&nbsp; These patterns must be taught by
+the teacher during the course of playing several games against the computer.</font></p>
+
+<p align="center"><a href="#TopPage"><font face="Arial">Return to Top of Page</font></a></p>
+
+<hr>
+
+<h2><a name="Winning Patterns"><small><small><font face="Arial">Winning Patterns</font></small></small></a></h2>
+
+<p><font face="Arial">The interesting aspect of AIP is that there are no game rules. The
+teacher is free to design and develop their own games with its own unique winning
+patterns.&nbsp; In fact, AIP can handle games that allow for more than one pattern of its
+pieces to constitute a win.&nbsp; One limitation&nbsp; is a win can only consist of the
+same pieces, all 'X's or all 'O's but not mixed.</font></p>
+
+<p><img src="ttt1.jpg" width="106" height="108" alt="ttt1.jpg (4330 bytes)"></p>
+
+<p><font face="Arial">The above 3x3 board defines one possible win as 3 X's running
+diagonally from top-left to bottom-right.&nbsp; A more complex pattern for a 5x5 may
+consist of the below winning pattern.</font></p>
+
+<p><img src="5X5win1.jpg" width="155" height="155" alt="5X5win1.jpg (7684 bytes)"></p>
+
+<p><font face="Arial">An inverted 'T' shape is considered a win.&nbsp; The teacher above
+all must be honest and consistent from game to game. AIP v0.1 has no anti-deception
+algorithms. It believes 100% of the wins that the teacher declares to be an actual winning
+pattern.</font></p>
+
+<p align="center"><a href="#TopPage"><font face="Arial">Return to Top of Page</font></a></p>
+
+<hr>
+
+<h4><a name="Bit Representation of Winning Pattern"><font face="Arial">Bit Representation
+of Winning Pattern</font></a></h4>
+
+<p><font face="Arial">A 32-bit number is used to hold a winning pattern.&nbsp; The 32-bit
+number is also known as a long integer.&nbsp; Consider the 3x3 game board below. It
+contains only 9 playable cells.&nbsp; Therefore, it uses only the lower 9 bits of a 32 bit
+number. </font></p>
+
+<p><img src="3x3ref.jpg" width="106" height="108" alt="3x3ref.jpg (5277 bytes)"></p>
+
+<p><font face="Arial">Each cell above is identified by a unique b? value. The 'b' stands
+for 'bit'.&nbsp; 'b0' is the least significant bit. A winning pattern may be defined by
+setting the appropriate bit to a value of '1' if that cell is part of a winning pattern.
+&nbsp; A '0' is placed in the binary number if the cell was not part of the winning
+pattern.&nbsp; What bits would be set (equal to 1) for the below win?</font></p>
+
+<p><img src="ttt1.jpg" width="106" height="108" alt="ttt1.jpg (4330 bytes)"></p>
+
+<p><font face="Arial">The correct answer would be b0, b4 and b8.&nbsp; Expressed in a 32
+bit binary number, it would look like: <strong>00000000000000000000000100010001</strong></font></p>
+
+<p align="left"><img src="bin1.jpg" width="189" height="113" alt="bin1.jpg (6359 bytes)"></p>
+
+<p><font face="Arial">Only part of the 32-bit number is shown above. The nine digit binary
+number is divided into three parts, each with three bits. The least significant bit is
+'b0' which corresponds to the top-left cell in the 3x3 grid.&nbsp; Reading from RIGHT to
+LEFT, the first three bits correspond to the top row or row= 1. The center three bits
+correspond to the middle row and the last three bits represent the bottom row.</font></p>
+
+<p align="center"><a href="#TopPage"><font face="Arial">Return to Top of Page</font></a></p>
+
+<hr>
+
+<p><font face="Arial">&nbsp;</font></p>
+
+<p><font face="Arial">&nbsp;</font></p>
+
+<p><font face="Arial">&nbsp;</font></p>
+
+<p><font face="Arial">&nbsp;</font></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial">&nbsp;</font></p>
+
+<p><font face="Arial">&nbsp;</font></p>
+
+<p><font face="Arial">&nbsp;</font></p>
+
+<p><font face="Arial">&nbsp;</font></p>
+
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,84 @@
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: icons.bmp
+Texture ID: 2 BMP Loaded: stars.bmp
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: icons.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stars.bmp
+Data Loaded!
+R and B values swapped!
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: icons.bmp
+Texture ID: 2 BMP Loaded: stars.bmp
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: icons.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stars.bmp
+Data Loaded!
+R and B values swapped!
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: icons.bmp
+Texture ID: 2 BMP Loaded: stars.bmp
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: icons.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stars.bmp
+Data Loaded!
+R and B values swapped!
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().

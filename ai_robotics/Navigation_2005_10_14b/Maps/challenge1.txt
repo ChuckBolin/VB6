@@ -1,0 +1,32 @@
+'****************************************************************
+' Challenge1.txt - Written by Chuck Bolin
+' This file contains robotic route with waypoints, lane widths,
+' speed limits.  Contains GPS coverage areas.
+' Indicates obstacles and bot starting information.
+'****************************************************************
+
+'radio beacons for direction finding
+beacon,9000,12000,1
+beacon,15000,17000,2
+beacon,18000,11000,3
+
+'gps coverage areas
+gps,6500,1500,11000,7000,4
+gps,11000,18000,21000,13000,0
+gps,16000,13000,28000,10000,3
+gps,11000,13000,16000,9000,0
+
+'robot track route with waypoints
+leg,10000,10000,10000,14000,800,1
+leg,12500,14000,12500,16000,400,2
+leg,12500,14000,12500,16000,400,1
+leg,12500,16000,27500,16000,400,2
+leg,27500,16000,27500,12000,500,3
+leg,27500,12000,12000,12000,300,4
+leg,12000,12000,12000,10000,400,3
+leg,12000,10000,10000,10000,500,4
+
+'random obstacles..x1,x2,y1,y2,radius1,radius2,quantity
+'obstacle_random,8000,28000,8000,18000,50,400,100
+obstacle,10000,11000,200
+obstacle,10300,12000,200

@@ -1,0 +1,9 @@
+GB   Great Britain (UK)
+UK   United Kingdom
+COM   US Commercial
+EDU   US Educational
+GOV   US Government
+MIL   US Military
+NET   Network
+ORG   Non-Profit Organization
+

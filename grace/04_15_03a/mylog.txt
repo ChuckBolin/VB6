@@ -1,0 +1,269 @@
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: extwall.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone1.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone2.bmp
+Data Loaded!
+R and B values swapped!
+ failed to open!
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: extwall.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone1.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone2.bmp
+Data Loaded!
+R and B values swapped!
+ failed to open!
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: extwall.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone1.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone2.bmp
+Data Loaded!
+R and B values swapped!
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: extwall.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone1.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone2.bmp
+Data Loaded!
+R and B values swapped!
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+Texture ID: 0 BMP Loaded: font2.bmp
+Texture ID: 1 BMP Loaded: extwall.bmp
+Texture ID: 2 BMP Loaded: stone1.bmp
+Texture ID: 3 BMP Loaded: stone2.bmp
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: graceengine
+Description: thisisabasicengine
+Revision Date: 04.15.03
+Programmer: chuckbolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+App Path: C:\Dev-C++\programs\grace\04_15_03a\grace.exe
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Filename loaded: font2.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: extwall.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone1.bmp
+Data Loaded!
+R and B values swapped!
+Filename loaded: stone2.bmp
+Data Loaded!
+R and B values swapped!
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().

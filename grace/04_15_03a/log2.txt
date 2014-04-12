@@ -1,0 +1,55 @@
+Font loaded
+Font loaded
+Font bitmap not found!
+Font loaded
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: Grace Engine
+Description: This is a basic program.
+Revision Date: 01.16.03
+Programmer: Chuck Bolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+App Path: C:\Dev-C++\programs\grace\04_15_03a\grace.exe
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: Grace Engine
+Description: This is a basic program.
+Revision Date: 01.16.03
+Programmer: Chuck Bolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+App Path: C:\Dev-C++\programs\grace\04_15_03a\grace.exe
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().
+**********************************
+Start of Program.
+**********************************
+Version: 0.1
+Program: Grace Engine
+Description: This is a basic program.
+Revision Date: 01.16.03
+Programmer: Chuck Bolin
+Email: cbolin@dycon.com
+URL: http://www.clg-net.com
+Help file: help.htm
+App Path: C:\Dev-C++\programs\grace\04_15_03a\grace.exe
+Font bitmap loaded
+Initialize OpenGL/GLUT Graphics.
+Initialize OpenGL/GLUT Keyboard and Mouse.
+Initialize Misc. Stuff.
+Begin glutMainLoop().

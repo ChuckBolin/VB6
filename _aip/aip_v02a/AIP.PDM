@@ -1,0 +1,148 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\_geek\ai_program\aip_v02a\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\_geek\ai_program\aip_v02a\AIP_V02a.zip=
+C:\_geek\ai_program\aip_v02a\help.htm=
+C:\_geek\ai_program\aip_v02a\theory.htm=
+C:\_geek\ai_program\aip_v02a\gui.jpg=
+C:\_geek\ai_program\aip_v02a\logo2.jpg=
+C:\_geek\ai_program\aip_v02a\pattern.jpg=
+C:\_geek\ai_program\aip_v02a\pattern2.jpg=
+C:\_geek\ai_program\aip_v02a\tab_AI.jpg=
+C:\_geek\ai_program\aip_v02a\tab_game.jpg=
+C:\_geek\ai_program\aip_v02a\tab_var.jpg=
+C:\_geek\ai_program\aip_v02a\game1.aip=
+C:\_geek\ai_program\aip_v02a\controls.txt=
+C:\_geek\ai_program\aip_v02a\errorlog.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\_geek\ai_program\aip_v02a\AIP.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\_geek\ai_program\aip_v02a\AIP_V02a.zip=Yes
+C:\_geek\ai_program\aip_v02a\help.htm=Yes
+C:\_geek\ai_program\aip_v02a\theory.htm=Yes
+C:\_geek\ai_program\aip_v02a\gui.jpg=Yes
+C:\_geek\ai_program\aip_v02a\logo2.jpg=Yes
+C:\_geek\ai_program\aip_v02a\pattern.jpg=Yes
+C:\_geek\ai_program\aip_v02a\pattern2.jpg=Yes
+C:\_geek\ai_program\aip_v02a\tab_AI.jpg=Yes
+C:\_geek\ai_program\aip_v02a\tab_game.jpg=Yes
+C:\_geek\ai_program\aip_v02a\tab_var.jpg=Yes
+C:\_geek\ai_program\aip_v02a\game1.aip=Yes
+C:\_geek\ai_program\aip_v02a\controls.txt=Yes
+C:\_geek\ai_program\aip_v02a\errorlog.txt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\_geek\ai_program\aip_v02a\AIP.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\_geek\ai_program\aip_v02a\AIP_V02a.zip=$(AppPath)
+C:\_geek\ai_program\aip_v02a\help.htm=$(AppPath)
+C:\_geek\ai_program\aip_v02a\theory.htm=$(AppPath)
+C:\_geek\ai_program\aip_v02a\gui.jpg=$(AppPath)
+C:\_geek\ai_program\aip_v02a\logo2.jpg=$(AppPath)
+C:\_geek\ai_program\aip_v02a\pattern.jpg=$(AppPath)
+C:\_geek\ai_program\aip_v02a\pattern2.jpg=$(AppPath)
+C:\_geek\ai_program\aip_v02a\tab_AI.jpg=$(AppPath)
+C:\_geek\ai_program\aip_v02a\tab_game.jpg=$(AppPath)
+C:\_geek\ai_program\aip_v02a\tab_var.jpg=$(AppPath)
+C:\_geek\ai_program\aip_v02a\game1.aip=$(AppPath)
+C:\_geek\ai_program\aip_v02a\controls.txt=$(AppPath)
+C:\_geek\ai_program\aip_v02a\errorlog.txt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\_geek\ai_program\aip_v02a\AIP.exe=No
+C:\_geek\ai_program\aip_v02a\AIP_V02a.zip=No
+C:\_geek\ai_program\aip_v02a\help.htm=No
+C:\_geek\ai_program\aip_v02a\theory.htm=No
+C:\_geek\ai_program\aip_v02a\gui.jpg=No
+C:\_geek\ai_program\aip_v02a\logo2.jpg=No
+C:\_geek\ai_program\aip_v02a\pattern.jpg=No
+C:\_geek\ai_program\aip_v02a\pattern2.jpg=No
+C:\_geek\ai_program\aip_v02a\tab_AI.jpg=No
+C:\_geek\ai_program\aip_v02a\tab_game.jpg=No
+C:\_geek\ai_program\aip_v02a\tab_var.jpg=No
+C:\_geek\ai_program\aip_v02a\game1.aip=No
+C:\_geek\ai_program\aip_v02a\controls.txt=No
+C:\_geek\ai_program\aip_v02a\errorlog.txt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=AIP v0.2a
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=AIP v0.2a
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|AIP v0.2a]
+Icon1=AIP.exe
+Title1=AIP v0.2a
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\_geek\ai_program\aip_v02a\Package
+ProjectFolder=C:\_geek\ai_program\aip_v02a
+ServerSideCab=
+File1=C:\_geek\ai_program\aip_v02a\Package\setup.exe
+File2=C:\_geek\ai_program\aip_v02a\Package\Setup.Lst
+File3=C:\_geek\ai_program\aip_v02a\Package\AIP.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,15 @@
+//Sample 6
+static int i;
+i++;
+
+if(i<40)
+{
+  pwm01=255;
+  pwm02=255;
+} 
+else
+{
+  pwm01=127;
+  pwm02=127;
+}
+

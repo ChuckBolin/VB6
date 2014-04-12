@@ -1,0 +1,47 @@
+/*******************************************************************************
+* FUNCTION NAME: User_Autonomous_Code
+* PURPOSE:       Execute user's code during autonomous robot operation.
+* You should modify this routine by adding code which you wish to run in
+* autonomous mode.  It will be executed every program loop, and not
+* wait for or use any data from the Operator Interface.
+* CALLED FROM:   main.c file, main() routine when in Autonomous mode
+* ARGUMENTS:     none
+* RETURNS:       void
+*******************************************************************************/
+void User_Autonomous_Code(void)
+{
+  /* Initialize all PWMs and Relays when entering Autonomous mode, or else it
+     will be stuck with the last values mapped from the joysticks.  Remember, 
+     even when Disabled it is reading inputs from the Operator Interface. 
+  */
+
+  /********* Add your variables here ***************/
+
+   pwm01 = pwm02 = pwm03 = pwm04 = pwm05 = pwm06 = pwm07 = pwm08 = 127;
+   pwm09 = pwm10 = pwm11 = pwm12 = pwm13 = pwm14 = pwm15 = pwm16 = 127;
+   relay1_fwd = relay1_rev = relay2_fwd = relay2_rev = 0;
+   relay3_fwd = relay3_rev = relay4_fwd = relay4_rev = 0;
+   relay5_fwd = relay5_rev = relay6_fwd = relay6_rev = 0;
+   relay7_fwd = relay7_rev = relay8_fwd = relay8_rev = 0;
+
+  while (autonomous_mode)   /* DO NOT CHANGE! */
+  {
+    if (statusflag.NEW_SPI_DATA)      /* 26.2ms loop area */
+    {
+        Getdata(&rxdata);  
+
+        /********* Start your code here **************/  
+
+
+
+
+
+
+
+        /*********   End your code here **************/  
+
+        Generate_Pwms(pwm13,pwm14,pwm15,pwm16);
+        Putdata(&txdata);  // DO NOT DELETE, or you will get no PWM outputs! 
+    }
+  }
+}
